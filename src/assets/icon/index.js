@@ -1,0 +1,5 @@
+export {default as iconWeb} from "./logo_web.png"
+export {default as iconDesign} from "./art-et-design.png"
+export {default as iconMarketing} from "./marketing-des-medias-sociaux.png"
+export {default as iconGpPlus} from "./gp-plus.svg"
+export {default as logo} from "./logo.svg"
