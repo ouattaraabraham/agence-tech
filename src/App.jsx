@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 const App=()=>{
 
   return (
-    <div className='bg-[#022562] font-sans text-[16px] lg:text-[18px] text-white h-screen flex flex-col'> 
+    <div className='bg-[#022562] font-sans text-[16px] lg:text-[19px] text-white h-screen flex flex-col'> 
       <Header/>
       <div className='grow pt-[70px] bg-[#172153] '>
        <Outlet />

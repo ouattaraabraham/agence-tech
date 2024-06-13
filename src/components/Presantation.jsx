@@ -8,7 +8,7 @@ const Presantation = ({prop}) => {
     <section>
         <div className="text-[#F9F9F9] relative mx-auto pb-[100px] lg:pb-[150px] pt-[30px] px-[20px] lg:px-[200px] xl:px-[200px]  sm:max-w-[540px] md:max-w-[600px] lg:max-w-[1060px] ">
           <div className='absolute hidden lg:block left-0 top-[20%]'>
-            <img className='w-[150px]' src="../src/assets/icon/etoile-filante1.png" alt="" />
+            <img className='w-[150px]' src="../src/assets/icon/etoile-filante.png" alt="" />
           </div>
           {/* <div className='absolute right-0 top-[20%]'>
             <img className='w-[150pxx]' src="../src/assets/icon/etoiles1.png" alt="" />

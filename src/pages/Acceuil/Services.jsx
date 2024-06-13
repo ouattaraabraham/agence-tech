@@ -26,7 +26,7 @@ const Services = () => {
                           <div className="px-4 py-7">
                             <h3 className="font-bold text-nowrap text-[20px] lg:text-[22px] text-[#87AAF8]">{items.name}</h3>
                             <p className="pt-4">{items.p}</p>
-                            <h3 className=" font-bold text-nowrap text-[18px] pt-5 pb-2 text-[#87AAF8]">{items.h3}</h3>
+                            <button className="border font-bold text-nowrap text-[18px] rounded-full py-2 px-4 mt-5 mb-2 text-[#87AAF8]">{items.h3}</button>
                           </div>
                       </div>
                       

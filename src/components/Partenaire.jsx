@@ -1,11 +1,16 @@
+import propTypes from 'prop-types'
 
 import { DATAPARTENAIRE } from "../data/Constant";
+import Boules from "./Boules";
 
-const Partenaire = () => {
+const Partenaire = ({boule}) => {
+  // if (!boule) return null
+
 
   return (
     <section className="bg-[#022562]">
-      <div className="py-[50px] lg:py-[100px]">
+      <div className="py-[50px] lg:pb-[100px]">
+      {boule?<Boules/>:''}
         <h1 className="pt-[50px] font-bold text-center text-[25px] lg:text-[32px]">
           {" "}
           {DATAPARTENAIRE.h1}{" "}
@@ -40,5 +45,9 @@ const Partenaire = () => {
     </section>
   );
 };
+
+Partenaire.propTypes ={
+  prop : propTypes.node ,
+}
 
 export default Partenaire;

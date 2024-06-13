@@ -22,7 +22,7 @@ const ServiceCreation = ({prop})=> {
                     <div key={items.id} className="bg-[#172153] border-2 w-fit rounded-xl flex flex-col items-center px-10 py-10">
                         <img className="w-[50px]" src={items.icon} alt={items.name} />
                         <h2 className="font-bold text-nowrap text-[20px] pt-6 pb-2 text-[#87AAF8]">{items.name}</h2>
-                        <div className="text-[16px]">
+                        <div >
                         {
                             items.service.map((item,index)=>
                                 <div key={index} className=" pt-2">

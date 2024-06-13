@@ -7,18 +7,16 @@ import Formulaire from "./Formulaire";
 import Services from "./Services";
 import Header from "./Header";
 import Temoin from "../../components/Temoin";
-import Boules from "../../components/Boules";
 
 const   Acceuil = () => {
-  const bgColor="bg-[#022562]"
   return (
     <div className="">
       <ScrollToTop />
       <Header />
       {/* body */}
       <Services/>
-      <Boules bgColor={bgColor} />
-      <Partenaire/>
+      {/* <Boules bgColor={bgColor} /> */}
+      <Partenaire boule={true} />
       <Realisation />
       <Motivation />
       <Temoin/>

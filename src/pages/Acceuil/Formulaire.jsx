@@ -29,9 +29,9 @@ const Formulaire = () => {
       form.reset();
     };
     return (
-      <section>
-        <div className="mx-auto py-[50px] lg:py-[100px] lg:pb-[150px] pt-[50px] px-[20px] lg:px-[100pxx] xl:px-[200pxx] 2xl:px-[300pxx] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
-          <div className="px-6 lg:flex gap-5 text-white mx-auto sm:max-w-[540px] md:max-w-[720pxx] lg:max-w-[960px] xl:max-w-[1140pxx] 2xl:max-w-[1320pxx]">
+      <section className="bg-[#0E1744]">
+        <div className="mx-auto py-[50px] lg:py-[100px] lg:pb-[150px] pt-[50px] px-[20px] lg:px-[100pxx] xl:px-[200pxx] 2xl:px-[300pxx] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[1140px] xl:max-w-[1140pxx] 2xl:max-w-[1320pxx] 3xl:max-w-[1620pxx]">
+          <div className="px-6 lg:flex gap-12 text-white mx-auto sm:max-w-[540pxx] md:max-w-[720pxx] lg:max-w-[960pxx] xl:max-w-[1140pxx] 2xl:max-w-[1320pxx]">
             {/* left */}
             <div className="lg:w-[50%] ">
                 <img className="h-[80%] object-cover object-center" src={DATACONTACT.leftImage} alt="image" />

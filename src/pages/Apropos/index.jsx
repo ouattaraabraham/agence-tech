@@ -1,20 +1,20 @@
-// import AutreService from "../../components/AutreService"
 import Contacter from "../../components/Contacter"
 import Services from "../Acceuil/Services"
-// import Partenaire from "../../components/Partenaire"
-// import TemoignageScroll from "../../components/TemoignageScroll"
+import Partenaire from "../../components/Partenaire"
 import Lequipe from "./Lequipe"
 import Temoin from "../../components/Temoin"
 import Presantation from "./Presantation"
-// import InfiniteMovingCards from "../../components/ui/infinite-moving-cards"
+import NotreMission from "./NotreMission"
 const Apropos=()=>{
     return (
 
       <div>
         <Presantation/>
+        <NotreMission/>
         <Services/>
         {/* <Partenaire/> */}
-        <Temoin/>
+        <Temoin />
+        <Partenaire boule={true} />
         {/* <TemoignageScroll/> */}
         <Lequipe/>
         {/* <InfiniteMovingCards/> */}
