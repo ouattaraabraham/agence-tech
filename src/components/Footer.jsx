@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-
+import { motion } from "framer-motion";
 import { FaFacebookF } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -16,9 +16,20 @@ const Footer = () => {
                 <div className=" pt-3 pb-2 lg:pt-5 flex justify-between items-center">
                 <Logo/>
                 <ul className="flex gap-4">
-                    <li className="bg-slate-100 rounded-full p-[3px] lg:p-[5px]"><FaWhatsapp size={24} className="text-[#F56F46]"/></li>
-                    <li className="bg-slate-100 rounded-full px-[5px] py-[3px] lg:px-[7px] lg:py-[5px]"><FaLinkedinIn size={22} className="text-[#F56F46]"/></li>
-                    <li className="bg-slate-100 rounded-full px-[5px] py-[3px] lg:px-[7px] lg:py-[5px]"><FaFacebookF size={22} className="text-[#F56F46]"/></li>
+                    <motion.li
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 1.2 }} 
+                     className="bg-slate-100 rounded-full p-[3px] lg:p-[5px]"><FaWhatsapp size={24} className="text-[#F56F46]"/>
+
+                     </motion.li>
+                    <motion.li
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 1.2 }} 
+                     className="bg-slate-100 rounded-full px-[5px] py-[3px] lg:px-[7px] lg:py-[5px]"><FaLinkedinIn size={22} className="text-[#F56F46]"/></motion.li>
+                    <motion.li
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 1.2 }} 
+                     className="bg-slate-100 rounded-full px-[5px] py-[3px] lg:px-[7px] lg:py-[5px]"><FaFacebookF size={22} className="text-[#F56F46]"/></motion.li>
                 </ul>
                 </div>
                 <div className="absolute left-0 w-full h-[1px] bg-white"></div>

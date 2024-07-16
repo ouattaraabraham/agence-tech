@@ -31,7 +31,7 @@ export default {
       },
       animation: {
         temoignage: 'temoignage 30s linear infinite',
-        temoin:'temoin 40s linear infinite',
+        temoin:'temoin 70s linear infinite',
       },
       boxShadow:{
         navBar:'0 1px 5px #030c1e'
@@ -43,6 +43,7 @@ export default {
         quote664: 'url("../src/assets/icon/quote6-64.png")',
       },
     },
+
   },
   plugins: [],
 }

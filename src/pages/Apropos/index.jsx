@@ -1,24 +1,18 @@
 import Contacter from "../../components/Contacter"
-import Services from "../Acceuil/Services"
-import Partenaire from "../../components/Partenaire"
-import Lequipe from "./Lequipe"
-import Temoin from "../../components/Temoin"
+// import Lequipe from "./Lequipe"
 import Presantation from "./Presantation"
-import NotreMission from "./NotreMission"
+import PourQuoiNous from "./PourQuoiNous"
+import Equipe from "./Equipe"
+import DifferenrService from "./DifferenrService"
 const Apropos=()=>{
     return (
 
-      <div>
+      <div className="bg-[#002057] pt-[50px]">
         <Presantation/>
-        <NotreMission/>
-        <Services/>
-        {/* <Partenaire/> */}
-        <Temoin />
-        <Partenaire boule={true} />
-        {/* <TemoignageScroll/> */}
-        <Lequipe/>
-        {/* <InfiniteMovingCards/> */}
-        {/* <AutreService/> */}
+        <PourQuoiNous/>
+        <DifferenrService/>
+        <Equipe/>
+        {/* <Lequipe/> */}
         <Contacter/>
       </div>
       )

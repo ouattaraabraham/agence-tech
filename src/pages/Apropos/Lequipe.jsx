@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { useScroll, useTransform } from "framer-motion";
 import EquipeGp from "../../components/EquipeGp";
 import { motion } from "framer-motion";
-import bg from "../../assets/image/bg-chat.jpg";
+// import bg from "../../assets/image/bg-chat.jpg";
 const Lequipe = () => {
   const ref = useRef();
   const { scrollYProgress } = useScroll({
@@ -111,7 +111,11 @@ const Lequipe = () => {
               </div>
               {/* actif */}
               {/* equipier */}
-              <div className="flex flex-row  mt-14 md:mt-16">
+              <div className="relative flex flex-row  mt-14 md:mt-16">
+              {/* <div className="absolute bg-black flex flex-col justify-center items-center -bottom-16">
+                <h2 className="text-[14px] ">Ouattara Abraham</h2>
+                <h3>Fondateur</h3>
+              </div> */}
                 <img
                   className="object-cover !m-0 !p-0 object-top rounded-full h-[100px] sm:h-[150px] md:h-[200px] w-[100px] sm:w-[150px] md:w-[200px] border-2 group-hover:scale-105 group-hover:z-30 border-white  relative transition duration-500"
                   src="../src/assets/image/hero-4.png"
@@ -218,7 +222,11 @@ const Lequipe = () => {
               </div>
               {/* actif */}
               {/* equipier */}
-              <div className="flex flex-row text-end mt-14 md:mt-16">
+              <div className="relative flex flex-row text-end mt-14 md:mt-16">
+              {/* <div className="bg-black flex flex-col justify-center items-center absolute -bottom-20">
+                <h2>Ouattara Abraham</h2>
+                <h3>Fondateur</h3>
+              </div> */}
                 <img
                   className="object-cover !m-0 !p-0 object-top rounded-full h-[100px] sm:h-[150px] md:h-[200px] w-[100px] sm:w-[150px] md:w-[200px] border-2 group-hover:scale-105 group-hover:z-30 border-white  relative transition duration-500"
                   src="../src/assets/image/hero-4.png"

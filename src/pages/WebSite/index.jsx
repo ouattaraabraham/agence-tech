@@ -5,19 +5,16 @@ import ServiceCreation from "../../components/Services_creation";
 import AutreService from "../../components/AutreService";
 import Contacter from "../../components/Contacter";
 import Chemat from "./Chemat";
-import {
-  DATASERVICECREATION,
-  DATAPRESANTATION,
-} from "../../data/Constant";
+import {DATAWEB} from "../../data/Constant";
 import Realisation from "../../components/Realisation";
 
 
 const WebSite = () => {
   return (
-    <div className="bg-[#172153]">
+    <div className="bg-[#002057] pt-[50px]">
       <ScrollToTop />
-      <Presantation prop={DATAPRESANTATION.siteWeb} />
-      <ServiceCreation prop={DATASERVICECREATION.siteWeb} />
+      <Presantation prop={DATAWEB.presantation} />
+      <ServiceCreation prop={DATAWEB.serviceCre} />
       <Realisation/>
       {/* <Motivation /> */}
       <Chemat />

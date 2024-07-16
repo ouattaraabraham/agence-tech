@@ -1,6 +1,5 @@
-
 import {DATACONTACT } from "../../data/Constant";
-
+import Btn from "../../components/Btn";
 
 const Formulaire = () => {
     const handlerSubmit = (e) => {
@@ -29,8 +28,8 @@ const Formulaire = () => {
       form.reset();
     };
     return (
-      <section className="bg-[#0E1744]">
-        <div className="mx-auto py-[50px] lg:py-[100px] lg:pb-[150px] pt-[50px] px-[20px] lg:px-[100pxx] xl:px-[200pxx] 2xl:px-[300pxx] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[1140px] xl:max-w-[1140pxx] 2xl:max-w-[1320pxx] 3xl:max-w-[1620pxx]">
+      <section className="bg-[#002057]">
+        <div className="mx-auto py-[50px] lg:py-[100px] lg:pb-[150px]] pt-[50px] px-[20px] lg:px-[100pxx] xl:px-[200pxx] 2xl:px-[300pxx] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[1140px] xl:max-w-[1140pxx] 2xl:max-w-[1320pxx] 3xl:max-w-[1620pxx]">
           <div className="px-6 lg:flex gap-12 text-white mx-auto sm:max-w-[540pxx] md:max-w-[720pxx] lg:max-w-[960pxx] xl:max-w-[1140pxx] 2xl:max-w-[1320pxx]">
             {/* left */}
             <div className="lg:w-[50%] ">
@@ -45,33 +44,33 @@ const Formulaire = () => {
                 action=""
               >
                 <input
-                  className="mb-6 border-[1px] border-white bg-[#172153]  w-full px-4 py-2"
+                  className="mb-6 border-[1px] border-white bg-[#002057]  w-full px-4 py-2"
                   type={DATACONTACT.right.form.inputs.inputNom.type}
                   id={DATACONTACT.right.form.inputs.inputNom.nom}
                   required
                   placeholder={DATACONTACT.right.form.inputs.inputNom.nom}
                 />
                 <input
-                  className="mb-6 border-[1px] border-white bg-[#172153] w-full px-4 py-2"
+                  className="mb-6 border-[1px] border-white bg-[#002057] w-full px-4 py-2"
                   type={DATACONTACT.right.form.inputs.inputPrenom.type}
                   id={DATACONTACT.right.form.inputs.inputPrenom.nom}
                   required
                   placeholder={DATACONTACT.right.form.inputs.inputPrenom.nom}
                 />
                 <input
-                  className="mb-6 border-[1px] border-white bg-[#172153] w-full px-4 py-2"
+                  className="mb-6 border-[1px] border-white bg-[#002057] w-full px-4 py-2"
                   type={DATACONTACT.right.form.inputs.inputEmail.type}
                   id={DATACONTACT.right.form.inputs.inputEmail.nom}
                   placeholder={DATACONTACT.right.form.inputs.inputEmail.nom}
                 />
                 <input
-                  className="mb-6 border-[1px] border-white bg-[#172153] w-full px-4 py-2"
+                  className="mb-6 border-[1px] border-white bg-[#002057] w-full px-4 py-2"
                   type={DATACONTACT.right.form.inputs.inputEntreprise.type}
                   id={DATACONTACT.right.form.inputs.inputEntreprise.nom}
                   placeholder={DATACONTACT.right.form.inputs.inputEntreprise.nom}
                 />
                 <input
-                  className="mb-6 border-[1px] border-white bg-[#172153] w-full px-4 py-2"
+                  className="mb-6 border-[1px] border-white bg-[#002057] w-full px-4 py-2"
                   type={DATACONTACT.right.form.inputs.inputTelephone.type}
                   id={DATACONTACT.right.form.inputs.inputTelephone.nom}
                   placeholder={DATACONTACT.right.form.inputs.inputTelephone.nom}
@@ -79,7 +78,7 @@ const Formulaire = () => {
                 <textarea
                   required
                   rows={DATACONTACT.right.form.inputs.inputCheckbox.type}
-                  className="mb-2 border-[1px] border-white bg-[#172153] w-full px-4 py-2"
+                  className="mb-2 border-[1px] border-white bg-[#002057] w-full px-4 py-2"
                   type={DATACONTACT.right.form.inputs.inputMessage.nom}
                   id={DATACONTACT.right.form.inputs.inputMessage.nom}
                   placeholder={DATACONTACT.right.form.inputs.inputMessage.nom}
@@ -94,12 +93,7 @@ const Formulaire = () => {
                 >
                   {DATACONTACT.right.form.inputs.inputlabel.text}
                 </label>
-                <button
-                  className="bg-[#F56F46] block px-10 py-2 mt-2 lg:mt-3 rounded-3xl"
-                  type={DATACONTACT.right.form.inputs.btn.type}
-                >
-                  {DATACONTACT.right.form.inputs.btn.text}
-                </button>
+                 <Btn txt={"Envoyé"} top={40}/>
               </form>
             </div>
           </div>

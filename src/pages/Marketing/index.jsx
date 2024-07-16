@@ -3,15 +3,14 @@ import Presantation from "../../components/Presantation";
 import Contacter from "../../components/Contacter";
 import AutreService from "../../components/AutreService";
 import ChiffreQuiParle from "./ChiffreQuiParle";
-import ServiceMarketing from "./ServiceMarketing";
-import { DATAPRESANTATION } from "../../data/Constant";
-
+import { DATAMARKETING } from "../../data/Constant";
+import Service from "./Service";
 const Marketing = () => {
   return (
-    <div className="bg-[#172153]">
+    <div className="bg-[#002057] pt-[50px]">
       <ScrollToTop />
-      <Presantation prop={DATAPRESANTATION.marketing} />
-      <ServiceMarketing />
+      <Presantation prop={DATAMARKETING.presantation} />
+      <Service/>
       <ChiffreQuiParle />
       <AutreService />
       <Contacter />

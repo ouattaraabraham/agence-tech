@@ -3,22 +3,18 @@ import Logo from "./Logo";
 import Nav from "./Nav";
 
 const Header = () => {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
   const [scrollValue, setScrollValue] = useState(false);
   let previousScrollPosition = 0;
   let currentScrollPosition = 0;
 
+  
   useEffect(()=>{
 
     window.addEventListener("scroll", function () {
-        // Get the new Value
-        currentScrollPosition = window.pageYOffset;
-        if (window.pageYOffset > 60) {
-          setShow(true);
-        }
-        if (window.pageYOffset < 60) {
-          setShow(false);
-        }
+
+      currentScrollPosition = window.pageYOffset;
+
     
         //Subtract the two and conclude
         if (previousScrollPosition - currentScrollPosition < 0) {
@@ -28,15 +24,17 @@ const Header = () => {
         //   alert("scrol up")
           setScrollValue(true);
         }
+
+             // Update the previous value
+             previousScrollPosition = currentScrollPosition;
     
-        // Update the previous value
-        previousScrollPosition = currentScrollPosition;
       });
+      
   },[])
 
   return (
-    <div className="shadow-navBar ">
-      <header className="z-30 w-full shadow-navBar bg-[#172153]">
+    <div className="shadow-navBarr z-50">
+      <header className="z-30 w-full shadow-md bg-[#002057]">
         <div className="w-full drop-shadow-sm flex justify-between mx-auto py-[1rem] px-[.75rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
           <Logo />
           <Nav />
@@ -44,7 +42,7 @@ const Header = () => {
       </header>
       {
        ( scrollValue) &&  (
-        <header className={`fixed top-0 z-20 w-full shadow-navBar bg-[#172153]`}>
+        <header className={`fixed top-0 z-20 w-full shadow-md bg-[#002057]`}>
         <div className="w-full drop-shadow-sm flex justify-between mx-auto py-[1rem] px-[.75rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
           <Logo />
           <Nav />

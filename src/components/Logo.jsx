@@ -4,7 +4,7 @@ window.scrollTo(0, 0)
 
 const Logo = () => {
     return (
-        <div className=" w-[100px] ">
+        <div >
            <NavLink onClick={()=>window.scrollTo(0, 0)} to="/">
              <img src={logo} alt="logo" />
            </NavLink>

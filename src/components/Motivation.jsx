@@ -40,7 +40,7 @@ const fusseMobile= useTransform(scrollYProgress,[0,1],["0%","400%"])
   // )
 
   return (
-    <section ref={ref}   className="realtive my-[50px]">
+    <section ref={ref}   className="relative my-[50px] overflow-hidden">
       {/* mobil */}
       <div className="relative lg:hidden mx-auto py-[100px] flex flex-col items-center justify-center lg:flex-row lg:gap-10 pt-[100px] px-[.75rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
         <div className="absolute top-0 right-5">
