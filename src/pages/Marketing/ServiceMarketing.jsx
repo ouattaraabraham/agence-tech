@@ -1,33 +1,24 @@
 
 import { DATAMARKETING } from "../../data/Constant";
 
-const ServiceMarketing = () => {
+export default function ServiceMarketing() {
   return (
-    <section className="bg-[#f0f8ff] text-[#172153]">
-      <div className="py-[100px] mx-auto px-[.75rem] max-w-[560px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
-        <div className="lg:flex justify-between gap-10">
-          <div className=" rounded-2xl pb-10 lg:pb-0 lg:w-[50%]">
-            <img
-              className="w-full h-full object-cover rounded-2xl "
-              src={DATAMARKETING.serviceMarketing.img}
-              alt="image-conceteur"
-            />
-          </div>
-          <div className="lg:w-[50%]">
-            <h2 className="pb-8 font-bold text-[20px] lg:text-[25px]">{DATAMARKETING.serviceMarketing.h2}</h2>
-            {
-              DATAMARKETING.serviceMarketing.p.map((item,index)=>{
-                    return(
-                        <p key={index} className="pb-5">{item}</p>
-
-                    )
-                })
-            }
-          </div>
+    <section className="bg-[#F9F9F9]">
+        <div className="text-slate-800 py-[100px]  justify-between mx-auto px-[.75rem] sm:max-w-[540px] md:max-w-[960px] lg:max-w-[960px]] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
+            <h2 className="mx-auto text-center font-bold text-[20px] lg:text-[35px] max-w-[720px] ">{DATAMARKETING.services.h2}</h2>
+            <div className="pt-10 md:pt-20 md:flex gap-8 lg:gap-10">
+                {DATAMARKETING.services.service.map(item=>
+                <div className="pt-10 pb-8 md:pb-10 font-semibold flex flex-col items-center relative after:absolute after:content-[''] after:w-full after:h-[3px] after:bottom-0 after:bg-[#F56F46]" key={item.id}>
+                    <div >
+                    {/* <div>{item.img}</div> */}
+                      <img className={`rounded-full ${item.id==2?"max-w-[130px] lg:max-w-[170px]":"max-w-[100px] lg:max-w-[150px]"} `} src={item.img} alt="" />
+                    </div>
+                        <h3 className="pt-5 md:pt-8 font-bold lg:text-[20px]">{item.h3}</h3>
+                         <p className="pt-6 md:pt-9 px-2 text-center">{item.p}</p>
+                </div>
+                )}
+            </div>
         </div>
-      </div>
     </section>
-  );
-};
-
-export default ServiceMarketing;
+  )
+}

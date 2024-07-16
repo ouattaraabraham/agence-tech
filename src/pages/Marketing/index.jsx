@@ -4,13 +4,13 @@ import Contacter from "../../components/Contacter";
 import AutreService from "../../components/AutreService";
 import ChiffreQuiParle from "./ChiffreQuiParle";
 import { DATAMARKETING } from "../../data/Constant";
-import Service from "./Service";
+import ServiceMarketing from "./ServiceMarketing";
 const Marketing = () => {
   return (
     <div className="bg-[#002057] pt-[50px]">
       <ScrollToTop />
       <Presantation prop={DATAMARKETING.presantation} />
-      <Service/>
+      <ServiceMarketing/>
       <ChiffreQuiParle />
       <AutreService />
       <Contacter />
