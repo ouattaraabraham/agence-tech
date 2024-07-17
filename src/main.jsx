@@ -46,7 +46,7 @@ const rooter= createBrowserRouter([
       ],
            },    
 ],
-{basename:"/vite-react-deploy"}
+{basename:'/vite-react-deploy/'}
 )
 
 

@@ -8,6 +8,66 @@ import {logo, iconWeb, iconDesign, iconMarketing , iconGpPlus } from "../assets/
 
 import {design,marketing,equipeWeb,convertir,empoule,transformer,illus,serviceAcceuilWeb,marketteFone , heroAcceuil , projet1, projet2, projet3,projet4,projet5,projet6,projet7, image1} from "../assets/image"
 
+// DATA TEMOIN 
+export const DATATEMOIN= [
+  {
+    id: 0,
+    p: "Je fais appel à HP Prestige pour le nettoyage de mon domicile depuis plusieurs mois et je suis ravie du service. L'équipe est ponctuelle, professionnelle et laisse ma maison impeccable à chaque visite. Je recommande vivement !",
+    img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
+    name: "Marie Dupont :",
+    work: "commercant",
+    start:["start","start","start","start"]
+  },
+  {
+    id: 1,
+    p:"En tant que gérant d'une entreprise, il est crucial pour moi d'avoir des locaux propres et accueillants. HP Prestige fait un travail remarquable en assurant le nettoyage de nos bureaux. Leur flexibilité et leur attention aux détails sont exceptionnelles.",
+    img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
+    name: "Jean-Pierre Martin",
+    work: "commercant",
+    start:["start","start","start","start","start",]
+  },
+  {
+      id: 2,
+      p:"HP Prestige a transformé notre jardin en un véritable paradis. Leur équipe d'aménagement paysager a su créer un espace vert magnifique et facile à entretenir. Merci pour votre excellent travail !",
+      img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
+      name: "Sophie Leblanc",
+      work: "commercant",
+      start:["start","start","start","start"]
+  },
+  {
+  id: 3,
+  p:"Nous avions un sérieux problème de nuisibles dans notre restaurant. HP Prestige est intervenu rapidement et a résolu le problème de manière efficace. Depuis, nous n'avons plus aucun souci de ce côté-là. Un service de grande qualité !",
+  img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
+  name: "Laurent Petit ",
+  work: "commercant",
+  start:["start","start","start","start"]
+  },
+  {
+  id: 4,
+  p:"J'ai fait appel à HP Prestige pour la vidange de ma fosse septique et j'ai été impressionnée par leur professionnalisme et leur efficacité. L'équipe a travaillé rapidement et proprement. Je les recommande sans hésitation.",
+  img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
+  name: "Claire Fournier",
+  work: "commercant",
+  start:["start","start","start","start","start",]
+  },
+  {
+    id: 5,
+    p:"La gestion des déchets de notre entreprise est devenue beaucoup plus simple grâce à HP Prestige. Leur service de collecte et de tri est impeccable, et leur engagement en faveur de l'environnement est un plus indéniable.",
+    img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
+    name: "Michel Lambert ",
+    work: "commercant",
+    start:["start","start","start","start","start",]
+    },
+    {
+      id: 6,
+      p:"Après une rénovation majeure de notre maison, nous avions besoin d'un grand nettoyage. HP Prestige a fait un travail extraordinaire, laissant chaque recoin de notre maison étincelant. Leur équipe est efficace et très amicale. Merci encore !",
+      img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
+      name: "Isabelle Moreau",
+      work: "commercant",
+      start:["start","start","start","start","start",]
+      },
+  
+];
 
 
 export const Illus=illus
