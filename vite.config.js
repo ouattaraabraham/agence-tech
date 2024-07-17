@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: './dist',
   },
-  base:"/vite-react-deploy/"
+  base:"/agence-tech/"
 })
