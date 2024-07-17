@@ -18,6 +18,7 @@ export {default as equipeWeb} from "./equipe-web.jpg"
 export {default as marketing} from "./marketing.jpg"
 export {default as design} from "./design.jpg"
 export {default as fuse2} from "./fuse2.svg"
+export {default as hero} from "./hero-4.png"
 
 
 

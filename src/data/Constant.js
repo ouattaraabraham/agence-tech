@@ -6,7 +6,7 @@
 
 import {logo, iconWeb, iconDesign, iconMarketing , iconGpPlus } from "../assets/icon";
 
-import {design,marketing,equipeWeb,convertir,empoule,transformer,illus,serviceAcceuilWeb,marketteFone , heroAcceuil , projet1, projet2, projet3,projet4,projet5,projet6,projet7, image1} from "../assets/image"
+import {hero,design,marketing,equipeWeb,convertir,empoule,transformer,illus,serviceAcceuilWeb,marketteFone , heroAcceuil , projet1, projet2, projet3,projet4,projet5,projet6,projet7, image1} from "../assets/image"
 
 // DATA TEMOIN 
 export const DATATEMOIN= [
@@ -598,6 +598,7 @@ export const DATAAPROPOS ={
   equipe:{
     h2:"Équipe Exécutive",
     pdg:{
+      img:hero,
       Name:"ABRAHAM OUATTARA",
       Fonction:"PDG",
       p1:"Abraham est le fondateur et PDG de Royal Cheese Digital.",
