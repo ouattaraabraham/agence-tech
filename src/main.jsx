@@ -42,11 +42,12 @@ const rooter= createBrowserRouter([
         {
           path:"/contact",
           element:<Contact/>,
-        }
-      ]
-
-     }
-])
+        },
+      ],
+           },    
+],
+{basename:"/vite-react-deploy"}
+)
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
