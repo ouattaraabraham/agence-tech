@@ -8,8 +8,8 @@ export default function Equipe() {
         <h2 className="text-[#E0E0E0] font-bold text-center py-10 text-[25px] lg:text-[35px]">{DATAAPROPOS.equipe.h2}</h2>
         <div className="pt-5 flex flex-col lg:flex-row lg:gap-10 items-center lg:items-start gap-4">   
               <div >
-              <div className="mt-20 mb-10 sm:my-0 sm:order-2 animate-heroAnimation relative overflow-hidden rounded-[60%_40%_30%_70%_/_60%_30%_70%_40%] w-[14rem] h-[14rem] max-w-[300px] max-h-[300px] w-[90vw]] h-[90vw]] ">
-                <img className="rounded-[60%_40%_30%_70%/60%_30%_70%_40%] w-full h-full h-[200px]] w-[200px]] md:h-[350px]] md:w-[350px]] lg:h-[350px]] lg:w-[450px]] object-cover object-top" src={DATAAPROPOS.equipe.pdg.img} alt="image du pdg" />
+              <div className="mt-20 mb-10 sm:my-0 sm:order-2 animate-heroAnimationn relative overflow-hidden rounded-[60%_40%_30%_70%_/_60%_30%_70%_40%] w-[15rem] h-[15rem] max-w-[350px] max-h-[350px]">
+                <img className="rounded-[60%_40%_30%_70%/60%_30%_70%_40%] w-full h-full object-cover object-top" src={DATAAPROPOS.equipe.pdg.img} alt="image du pdg" />
               </div>
                 <div className="text-center pt-5 text-[16px] lg:text-[17px]">
                   <h2 className="font-semibold text-[#FFF5CC] ">{DATAAPROPOS.equipe.pdg.Name}</h2>
