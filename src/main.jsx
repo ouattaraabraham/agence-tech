@@ -24,23 +24,23 @@ const rooter= createBrowserRouter([
           element:<Acceuil/>,
         },
         {
-          path:"/web-design",
+          path:"web-design",
           element:<WebSite/>,
         },
         {
-          path:"/design-branding",
+          path:"design-branding",
           element:<DesignBranding/>,
          },
         {
-          path:"/marketing",
+          path:"marketing",
           element:<Marketing/>,
         },
         {
-          path:"/apropos",
+          path:"apropos",
           element:<Apropos/>,
         },
         {
-          path:"/contact",
+          path:"contact",
           element:<Contact/>,
         },
       ],
