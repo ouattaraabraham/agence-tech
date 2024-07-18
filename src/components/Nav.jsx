@@ -76,8 +76,8 @@ const Nav = () => {
           )}
         </div>
         {isOpenServiceMobil && (
-          <div className="z-50 absolute text-[20px] py-4 flex flex-col  left-0 top-14 px-20 pt-10 pb-16 shadow-lg mt-10 w-full bg-[#002057]">
-          <div className=" flex flex-col gap-8">
+          <div className="z-50 absolute text-[18px] py-2 flex flex-col  left-0 top-6 pl-10 pt-10 pb-16 shadow-lg mt-10 w-full bg-[#002057]">
+          <div className=" flex flex-col gap-5">
               {
                 DATANAVLINK.map(item=>
                 
@@ -87,16 +87,16 @@ const Nav = () => {
                   </NavLink>:
                   <div key={item.id} className=" cursor-pointer">
                       <div
-                        className="flex gap-10 items-center"
+                        className="flex gap-8 items-center"
                        
                       >
                         <p>{item.name}</p>{" "}
                           <AiFillCaretDown /> 
                       </div>
-                      <div className="flex flex-col pt-4 gap-4">
+                      <div className="flex flex-col pt-4 gap-3">
                           {
                             item.sousLink.map(item=>
-                              <NavLink className="pl-3" key={item.id} onClick={toogleIsOpenServiceMobil} to={item.link}>
+                              <NavLink className="text-[17px] pl-3 text-nowrap" key={item.id} onClick={toogleIsOpenServiceMobil} to={item.link}>
                                 {item.name}
                               </NavLink>
                             )

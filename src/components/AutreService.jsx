@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const AutreService = () => {
     return (
         <section className="bg-[#002057]">
-          <div className="lg:flex flex-col py-[100px] mx-auto px-[20px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]"> 
+          <div className="lg:flex flex-col py-[50px] lg:py-[100px] mx-auto px-[20px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]"> 
            <Boules/>   
            <h2 className="font-bold text-[22px] lg:text-[32px] text-[#E0E0E0] text-center py-10">{AUTRESERVICE.h2}</h2>   
       

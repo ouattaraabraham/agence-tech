@@ -9,7 +9,7 @@ const Presantation = ({prop}) => {
 
   return (
     <section className='bg-[#002057]'>
-        <div className="relative mx-auto pb-[100px] lg:pb-[150px] pt-[30px] px-[20px] lg:px-[200px] xl:px-[200px]  sm:max-w-[540px] md:max-w-[600px] lg:max-w-[1060px] ">
+        <div className="relative mx-auto pb-[50px] lg:pb-[100px] pt-[25px] lg:pt-[30px] px-[20px] lg:px-[200px] xl:px-[200px]  sm:max-w-[540px] md:max-w-[600px] lg:max-w-[1060px] ">
           <div className='absolute hidden lg:block left-0 top-[20%]'>
             <img className='w-[150px]' src={etoileFilante} alt="etoileFilante" />
           </div>

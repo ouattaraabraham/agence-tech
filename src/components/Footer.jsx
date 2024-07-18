@@ -10,26 +10,26 @@ import { DATAFOOTER } from "../data/Constant";
 const Footer = () => {
     return (
         <div className="relative bg-[#00163E]">
-          <div className=" mx-auto px-[.75rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
+          <div className=" mx-auto px-[20px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
              {/* div-haut */}
             <div>
                 <div className=" pt-3 pb-2 lg:pt-5 flex justify-between items-center">
                 <Logo/>
-                <ul className="flex gap-4">
+                <ul className="flex items-center gap-4">
                     <motion.li
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 1.2 }} 
-                     className="p-[3px] lg:p-[5px]"><FaWhatsapp size={25} className="text-[#F56F46]"/>
+                     className="p-[3px] lg:p-[5px]"><FaWhatsapp size={20} className="text-[#F56F46]"/>
 
                      </motion.li>
                     <motion.li
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 1.2 }} 
-                     ><FaLinkedinIn size={25} className="text-[#F56F46]"/></motion.li>
+                     ><FaLinkedinIn size={20} className="text-[#F56F46]"/></motion.li>
                     <motion.li
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 1.2 }} 
-                     ><FaFacebookF size={25} className="text-[#F56F46]"/></motion.li>
+                     ><FaFacebookF size={20} className="text-[#F56F46]"/></motion.li>
                 </ul>
                 </div>
                 <div className="absolute left-0 w-full h-[1px] bg-white"></div>

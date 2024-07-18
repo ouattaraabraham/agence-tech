@@ -32,7 +32,7 @@ const ActiveSlider = () => {
         {DATAREALISATION.slider.map((item) => {
           return (
           <SwiperSlide key={item.id}>
-           <div className="relativee cursor-grab  w-[80%] h-[350px] lg:w-[500px] lg:h-[500px] shadow-lg">
+           <div className=" cursor-grab  w-[80%] h-[350px] lg:w-[500px] lg:h-[500px] shadow-lg">
              <div className="absolute inset-0 object-cover object-center" style={{backgroundImage:`url(${item.bgImg})`}}>
 
              </div>

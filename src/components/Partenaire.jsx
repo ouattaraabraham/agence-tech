@@ -11,7 +11,7 @@ const Partenaire = ({boule}) => {
     <section className="bg-[#022562]">
       <div className="py-[50px] lg:pb-[100px]">
       {boule?<Boules/>:''}
-        <h1 className=" pt-[50px] font-bold text-center text-[25px] lg:text-[32px]">
+        <h1 className=" pt-[50px] font-bold text-center text-[22px] lg:text-[32px]">
           {" "}
           {DATAPARTENAIRE.h1}{" "}
         </h1>

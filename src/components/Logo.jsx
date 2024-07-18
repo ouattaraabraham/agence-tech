@@ -5,7 +5,7 @@ const Logo = () => {
     return (
         <div >
            <NavLink onClick={()=>window.scrollTo(0, 0)} to="/">
-             <img className="w-[150px]" src={logo} alt="logo" />
+             <img className="w-[130px] lg:w-[150px]" src={logo} alt="logo" />
            </NavLink>
         </div>
     );

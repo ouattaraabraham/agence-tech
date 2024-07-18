@@ -8,7 +8,7 @@ const ServiceCreation = ({prop})=> {
 
     return ( 
         <section className="bg-[#01225c]">
-          <div className="lg:flex flex-col py-[100px] mx-auto px-[20px] lg:px-[2rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[1140px]] lg:max-w-[1320px] 3xl:max-w-[1620px]"> 
+          <div className="lg:flex flex-col py-[50px] lg:py-[100px] mx-auto px-[20px] lg:px-[2rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[1140px]] lg:max-w-[1320px] 3xl:max-w-[1620px]"> 
             <div>
               <Boules/>
               <h2 className="font-bold text-[22px] lg:text-[30px] text-[#E0E0E0] text-center py-10">NOS SERVICES CREATION</h2>

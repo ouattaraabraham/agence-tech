@@ -7,8 +7,8 @@ export default function Equipe() {
        <div className='mx-auto px-[20px] text-[14px] lg:text-[16px] py-[50px] lg:py-[100px] sm:max-w-[540px]] md:max-w-[720px] lg:max-w-[800px] xl:max-w-[840px] 2xl:xl:max-w-[1320px]]'>
         <h2 className="text-[#E0E0E0] font-bold text-center py-10 text-[25px] lg:text-[35px]">{DATAAPROPOS.equipe.h2}</h2>
         <div className="pt-5 flex flex-col lg:flex-row lg:gap-10 items-center lg:items-start gap-4">   
-              <div className="w-[300px]] h-[300px]] rounded-full">
-               <img className="rounded-[60%_40%_30%_70%/60%_30%_70%_40%] h-[300px] w-[300px] md:h-[350px] md:w-[350px] lg:h-[350px] lg:w-[450px] object-cover object-top" src={DATAAPROPOS.equipe.pdg.img} alt="image du pdg" />
+              <div >
+               <img className="rounded-[60%_40%_30%_70%/60%_30%_70%_40%] h-[200px] w-[200px] md:h-[350px] md:w-[350px] lg:h-[350px] lg:w-[450px] object-cover object-top" src={DATAAPROPOS.equipe.pdg.img} alt="image du pdg" />
                 <div className="text-center pt-5 text-[16px] lg:text-[17px]">
                   <h2 className="font-semibold text-[#FFF5CC] ">{DATAAPROPOS.equipe.pdg.Name}</h2>
                   <h3 className="pt-3 font-semibold">{DATAAPROPOS.equipe.pdg.Fonction}</h3>
@@ -26,7 +26,7 @@ export default function Equipe() {
 
               </div>
         </div>
-        <div className="pt-24">
+        <div className="pt-14 lg:pt-20">
           <EquipeGp/>
         </div>
     </div>
