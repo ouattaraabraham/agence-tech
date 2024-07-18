@@ -1,5 +1,6 @@
 // import ScrollToTop from "../components/scrollToTop
 import Formulaire from "../../components/Formulaire"
+import ScrollToTop from "../../components/scrollToTop";
 // import Btn from "../../components/Btn";
 import { DATACONTACT } from "../../data/Constant";
 
@@ -32,6 +33,7 @@ const Contacter = () => {
 
   return (
       <section className="bg-[#002057]">
+        <ScrollToTop/>
         <div className="mx-auto py-[50px]   px-[20px] lg:px-[100px] xl:px-[200pxx] 2xl:px-[300pxx] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
           <div className="lg:flex gap-5">
             {/* left */}

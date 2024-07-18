@@ -1,7 +1,7 @@
 import { DATATEMOIN } from "../data/Constant";
 
 const Temoin = () => {
-  
+
   // const data = [
   //   {
   //     id: 0,
@@ -114,13 +114,13 @@ const Temoin = () => {
       <div className="py-[50px] lg:py-[100px]">
         {/* partenaire */}
         <div className="relative overflow-hidden py-[50px]">
-          <div className="flex w-fit gap-10 animate-temoin hover:pause">
+          <div className="flex w-fit gap-5 animate-temoin hover:pause">
             {DATATEMOIN.map((item) => {
               return (
                 <>
-                  <div key={item.id} className="relative flex flex-col p-5 w-[60vw] sm:w-[350px] md:w-[400px] lg:w-[450px] min-h-[270px] rounded-lg border-[1px] text-[15px]] ">
-                    <p className="grow">{item.p}</p>
-                    <div className="flex flex-wrap mt-[50px]">
+                  <div key={item.id} className="relative flex flex-col p-5 w-[85vw] h-[350px] sm:h-[300px] md:h-[270px] sm:w-[350px] md:w-[400px] lg:w-[450px] rounded-lg border-[1px] text-[15px]] " >
+                    <p className="groww">{item.p}</p>
+                    <div className="absolute pb-2 bottom-0 flex flex-wrap mt-8">
                       <img className="w-12 h-12 rounded-full" src={item.img} alt="temoin" />
                       <div className="ml-4">
                         <h3>{item.name}</h3>
@@ -129,9 +129,9 @@ const Temoin = () => {
                     </div>
                   </div>
 
-                  <div key={item.id} className="relative flex flex-col p-5 w-[60vw] sm:w-[350px] md:w-[400px] lg:w-[450px] min-h-[270px] rounded-lg border-[1px] text-[15px]] ">
-                    <p className="grow">{item.p}</p>
-                    <div className="flex flex-wrap mt-[50px]">
+                  <div key={item.id} className="relative flex flex-col p-5 w-[85vw] h-[350px] sm:h-[300px] md:h-[270px] sm:w-[350px] md:w-[400px] lg:w-[450px] rounded-lg border-[1px] text-[15px]] ">
+                    <p className="groww">{item.p}</p>
+                    <div className="absolute pb-2 bottom-0 flex flex-wrap mt-8">
                       <img className="w-12 h-12 rounded-full" src={item.img} alt="temoin" />
                       <div className="ml-4">
                         <h3>{item.name}</h3>

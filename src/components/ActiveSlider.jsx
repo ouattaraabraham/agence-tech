@@ -19,7 +19,7 @@ const ActiveSlider = () => {
           },
           700: {
             slidesPerView: 3,
-            spaceBetween: 15,
+            spaceBetween: 25,
           },
         }}
         freeMode={true}
@@ -32,7 +32,7 @@ const ActiveSlider = () => {
         {DATAREALISATION.slider.map((item) => {
           return (
           <SwiperSlide key={item.id}>
-           <div className="realtive cursor-grab w-[215px] h-[250px] lg:w-[350px] lg:h-[400px] shadow-lg">
+           <div className="relativee cursor-grab  w-[80%] h-[350px] lg:w-[500px] lg:h-[500px] shadow-lg">
              <div className="absolute inset-0 object-cover object-center" style={{backgroundImage:`url(${item.bgImg})`}}>
 
              </div>

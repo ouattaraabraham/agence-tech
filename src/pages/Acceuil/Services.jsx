@@ -7,13 +7,13 @@ import Btn from "../../components/Btn";
  function Services () {
     return(
       <section className="bg-[#01225c]">
-            <div className="lg:flex flex-col py-[100px] mx-auto px-[.75rem] sm:max-w-[540px]] md:max-w-[720px]] lg:max-w-[960px]] md:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]"> 
+            <div className="lg:flex flex-col py-[100px] mx-auto px-[20px] sm:max-w-[540px]] md:max-w-[720px]] lg:max-w-[960px]] md:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]"> 
               <div>
                 <Boules/>
-                <h2 className="font-bold text-[25px] lg:text-[30px] text-[#E0E0E0] text-center py-10">{DATAACCEUIL.presantation.h2}</h2>
+                <h2 className="font-bold text-[22px] lg:text-[30px] text-[#E0E0E0] text-center py-10">{DATAACCEUIL.presantation.h2}</h2>
               </div>
-              <div className="px-5">
-                  <div className="mx-auto max-w-sm  pt-10 grid md:grid-cols-2 md:max-w-fit lg:grid-cols-3 gap-10 justify-center">
+              <div >
+                  <div className="mx-auto max-w-sm pt-5 grid md:grid-cols-2 md:max-w-fit lg:grid-cols-3 gap-10 justify-center">
   
                   {
                     DATAACCEUIL.presantation.service.map((items)=>

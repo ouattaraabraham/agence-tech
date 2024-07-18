@@ -9,7 +9,7 @@ import Temoin from "../../components/Temoin";
 
 const   Acceuil = () => {
   return (
-    <div className="pt-[50px]">
+    <div>
       <ScrollToTop />
       <Header />
       <Services/>

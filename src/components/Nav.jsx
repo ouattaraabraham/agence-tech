@@ -18,7 +18,8 @@ const Nav = () => {
   })
 
   const toogleIsOpenServiceMobil = () => {
-    setIsOpenServiceMobil((prev) => !prev);
+    setIsOpenServiceMobil((prev) => !prev)
+    
   };
   return (
     <>
