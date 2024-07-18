@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import { motion } from "framer-motion";
 import { CgArrowTopRight } from "react-icons/cg";
 
@@ -50,4 +52,13 @@ import { CgArrowTopRight } from "react-icons/cg";
     );
 }
 
+Btn.propTypes = {
+  txt: PropTypes.string,
+  style: PropTypes.string,
+  top: PropTypes.string,
+  type: PropTypes.string,
+
+  
+
+};
 export default Btn;
