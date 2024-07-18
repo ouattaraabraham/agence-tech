@@ -46,7 +46,7 @@ const rooter= createBrowserRouter([
       ],
            },    
 ],
-{basename: "ouattaraabraham.github.io/agence-tech"}
+{basename: "/agence-tech"}
 )
 
 
