@@ -21,8 +21,8 @@ export const DATATEMOIN= [
   {
     id: 1,
     p:"Travailler avec Astra One a été une expérience exceptionnelle. Leur expertise en marketing digital a considérablement amélioré notre présence en ligne. Nous recommandons vivement leurs services.",
-    img:"https://img.freepik.com/photos-gratuite/travail-couturier_1098-15863.jpg?t=st=1721380680~exp=1721384280~hmac=6b565e296c6fd2d1a6362349a47abbaec445b5d673fae20dfd617bcf25a596b8&w=900",
-    name: "Stephie Benoi",
+    img:"https://cdn.pixabay.com/photo/2022/07/29/04/03/man-7351001_1280.jpg",
+    name: "jack Benoi",
     work: "directeur",
     start:["start","start","start","start","start",]
   },
@@ -37,8 +37,8 @@ export const DATATEMOIN= [
   {
   id: 3,
   p:"Nous avons confié la création de notre application mobile à Astra One, et nous n'avons pas été déçus. L'application est intuitive, rapide et répond parfaitement à nos besoins. Un grand merci à toute l'équipe.",
-  img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
-  name: "Pdg",
+  img:"https://img.freepik.com/photos-gratuite/gars-souriant-regardant-devant_23-2149370563.jpg?t=st=1721407515~exp=1721411115~hmac=0a269e16e18ab1f644c9b24a33e0fe9dad410ce0545f7b44557130bce4fce445&w=900",
+  name: "Paul Ewi",
   work: "commercant",
   start:["start","start","start","start"]
   },
@@ -53,7 +53,7 @@ export const DATATEMOIN= [
   {
     id: 5,
     p:"Le service de marketing digital d'Astra One a transformé notre approche commerciale. Leur équipe est compétente et toujours disponible pour répondre à nos questions. Nos ventes ont considérablement augmenté.",
-    img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
+    img:"https://img.freepik.com/photos-gratuite/jeune-homme-affaires-prospere-souriant-assis-lieu-travail-ordinateur-portable_176420-1234.jpg?t=st=1721407805~exp=1721411405~hmac=8f8929a766c1c97e66786c6b3e0cb873637fcf03ab0a0c3bbddd6364bff649c6&w=900",
     name: "Dambele Abdoul ",
     work: "commercant",
     start:["start","start","start","start","start",]
@@ -61,9 +61,9 @@ export const DATATEMOIN= [
     {
       id: 6,
       p:"Astra One a été un partenaire clé dans le développement de notre stratégie de communication. Leur approche personnalisée et leur compréhension de notre marché ont été déterminantes pour notre succès.",
-      img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
-      name: "Isabelle Moreau",
-      work: "Responsable marketing",
+      img:"https://img.freepik.com/photos-gratuite/portrait-femme-affaires-utilisant-ordinateur-au-bureau-entreprise-travaillant-donnees-recherche-documents-analyser-informations-ligne-pour-faire-rapports-prendre-notes-envoyer-e-mails-direction_482257-49765.jpg?t=st=1721408029~exp=1721411629~hmac=d293c10fcc97c4be8b663cff2b411b6e001b0219c1d4187ca1df8b4723b491d5&w=1060",
+      name: "Miriam Moreau",
+      work: "Responsable d'equipe",
       start:["start","start","start","start","start",]
       },
   

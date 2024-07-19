@@ -114,7 +114,7 @@ const Temoin = () => {
       <div className="py-[50px] lg:py-[100px]">
         {/* partenaire */}
         <div className="relative overflow-hidden py-[50px]">
-          <div className="flex w-fit gap-5 animate-temoin hover:pause">
+          <div className="flex items-center w-fit gap-5 animate-temoinMobil md:animate-temoin hover:pause">
             {DATATEMOIN.map((item) => {
               return (
                 <>
@@ -128,13 +128,19 @@ const Temoin = () => {
                       </div>
                     </div>
                   </div>
+                </>
+              );
+            })}
 
+            {DATATEMOIN.map((item) => {
+              return (
+                <>
                   <div key={item.id} className="relative flex flex-col p-5 w-[85vw] h-[260px] sm:h-[300px] md:h-[270px] sm:w-[350px] md:w-[400px] lg:w-[450px] rounded-lg border-[1px] text-[15px]] " >
-                    <p className="groww">{item.p}</p>
+                    <p>{item.p}</p>
                     <div className="absolute pb-3 bottom-0 flex flex-wrap mt-7">
                       <img className="w-12 h-12 rounded-full object-cover" src={item.img} alt="temoin" />
                       <div className="ml-4">
-                        <h3>{item.name}</h3>
+                        <h3 className="font-semibold">{item.name}</h3>
                         <h4> {item.work}</h4>
                       </div>
                     </div>
@@ -142,6 +148,7 @@ const Temoin = () => {
                 </>
               );
             })}
+
           </div>
         </div>
       </div>
