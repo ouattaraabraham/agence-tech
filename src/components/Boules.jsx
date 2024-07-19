@@ -9,7 +9,6 @@ const Boules = () => {
     const handleScroll = () => {
       const rotation = window.scrollY / 2; // Adjust this value to control the speed of rotation
       setRotate(rotation);
-      console.log("rotate :"+rotate);
     };
 
     window.addEventListener('scroll', handleScroll);

@@ -9,7 +9,7 @@ const AutreService = () => {
            <Boules/>   
            <h2 className="font-bold text-[22px] lg:text-[32px] text-[#E0E0E0] text-center py-10">{AUTRESERVICE.h2}</h2>   
       
-           <div className="mx-auto cursor-pointer max-w-sm md:px-0  pt-10 grid md:grid-cols-2 md:max-w-fit lg:grid-cols-3 md:gap-5 lg:gap-10 justify-center">
+           <div className="mx-auto cursor-pointer max-w-sm md:px-0  md:pt-10 grid md:grid-cols-2 md:max-w-fit lg:grid-cols-3 md:gap-5 lg:gap-10 justify-center">
            {
             AUTRESERVICE.services.map((items)=>
             <NavLink className="mt-6 md:mt-0 " key={items.id} to={items.link.link}>

@@ -3,7 +3,7 @@ import { DATACHEMAT } from "../../data/Constant";
 const Chemat = () => {
   return (
     <section className="bg-[#F9F9F9] ">
-      <div className="text-[#022562] mx-auto py-[50px] lg:py-[100px] flex flex-col items-center justify-center gap-9 lg:gap-12 pt-[100px] px-[20px] lg:px-[100px] xl:px-[200pxx] 3xl:px-[300px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140pxx] 2xl:max-w-[1320pxx] 3xl:max-w-[1620pxx] ">
+      <div className="text-[#022562] mx-auto py-[50px] lg:py-[100px] flex flex-col items-center justify-center gap-9 lg:gap-12 px-[20px] lg:px-[100px] xl:px-[200pxx] 3xl:px-[300px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] ">
         <h2 className="text-[#172153] font-bold text-[25px] lg:text-[35px]">
           {DATACHEMAT.h2}
         </h2>

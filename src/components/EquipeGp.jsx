@@ -3,45 +3,45 @@ import { AnimatedTooltip } from "./ui/animated-tooltip";
 const people = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "Software Engineer",
+    name: "Frank wole",
+    designation: "Ingénieur logiciel",
     image:
-      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+        "https://cdn.pixabay.com/photo/2015/06/01/21/17/african-794307_1280.jpg"
   },
   {
     id: 2,
-    name: "Robert Johnson",
-    designation: "Product Manager",
+    name: "Eric Kouakou",
+    designation: "chef de projet",
     image:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "https://img.freepik.com/photos-gratuite/gros-plan-personne-travaillant-energie-alternative_23-2149311495.jpg?t=st=1721382446~exp=1721386046~hmac=edf5e6e8f084396dbd0349948eb309eb255a8039dab60b258307c5f552b116d0&w=900"
   },
   {
     id: 3,
-    name: "Jane Smith",
-    designation: "Data Scientist",
+    name: "Ami Fofana",
+    designation: "UI designer",
     image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+        "https://img.freepik.com/photos-gratuite/jeune-femme-noire-dans-bureau_641386-605.jpg?t=st=1721384016~exp=1721387616~hmac=e22a3a2ceb0acfc830d7fea6ce9fa9ec87755a02a77ea38a80b6adfca06e9455&w=900"
   },
   {
     id: 4,
-    name: "Emily Davis",
-    designation: "UX Designer",
+    name: "Dorcas kouame",
+    designation: "Graphic Designer",
     image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+     "https://img.freepik.com/photos-gratuite/designer-industriel-travaillant-modele-3d_23-2149370125.jpg?t=st=1721384328~exp=1721387928~hmac=cba0fadba9723083c25a8bbba88652525f69fa0234f8980fcebb101977ea95d9&w=900"
   },
   {
     id: 5,
-    name: "Tyler Durden",
-    designation: "Soap Developer",
+    name: "Fabrice oulai",
+    designation: "Developer Front-end",
     image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+       "https://img.freepik.com/photos-gratuite/designer-industriel-travaillant-modele-3d_23-2149370098.jpg?t=st=1721384435~exp=1721388035~hmac=7f4b66be44ca363fc209ec9be658bb0c9ab5876e0f8d96ba10c46e52e8436ffd&w=900"
   },
   {
     id: 6,
-    name: "Dora",
-    designation: "The Explorer",
+    name: "Loriane konate",
+    designation: "Digital Marketer",
     image:
-      "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
+         "https://img.freepik.com/photos-gratuite/femme-smiley-coup-moyen-au-bureau_23-2148924767.jpg?t=st=1721384530~exp=1721388130~hmac=677189b8d0a865447ee0020f72f237d6b737fee72b3f7c4126c9305d3936b194&w=900"
   },
 ];
 

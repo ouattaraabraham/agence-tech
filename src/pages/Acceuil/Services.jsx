@@ -13,7 +13,7 @@ import Btn from "../../components/Btn";
                 <h2 className="font-bold text-[22px] lg:text-[30px] text-[#E0E0E0] text-center py-10">{DATAACCEUIL.presantation.h2}</h2>
               </div>
               <div >
-                  <div className="mx-auto max-w-sm pt-5 grid md:grid-cols-2 md:max-w-fit lg:grid-cols-3 gap-10 justify-center">
+                  <div className="mx-auto max-w-sm md:pt-5 grid md:grid-cols-2 md:max-w-fit lg:grid-cols-3 gap-10 justify-center">
   
                   {
                     DATAACCEUIL.presantation.service.map((items)=>

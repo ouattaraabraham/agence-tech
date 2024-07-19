@@ -1,10 +1,9 @@
+import { Link} from "react-router-dom";
 import Logo from "./Logo";
 import { motion } from "framer-motion";
 import { FaFacebookF } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-
-
 import { DATAFOOTER } from "../data/Constant";
 
 const Footer = () => {
@@ -16,20 +15,28 @@ const Footer = () => {
                 <div className=" pt-3 pb-2 lg:pt-5 flex justify-between items-center">
                 <Logo/>
                 <ul className="flex items-center gap-4">
+                 <Link>
                     <motion.li
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 1.2 }} 
-                     className="p-[3px] lg:p-[5px]"><FaWhatsapp size={20} className="text-[#F56F46]"/>
-
+                     className="p-[3px] lg:p-[5px] "><FaWhatsapp size={22} className="text-[#F56F46]"/>
                      </motion.li>
+                  </Link>
+                  <Link>
                     <motion.li
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 1.2 }} 
-                     ><FaLinkedinIn size={20} className="text-[#F56F46]"/></motion.li>
+                     ><FaLinkedinIn size={22} className="text-[#F56F46]"/>
+                     </motion.li>
+                  </Link>
+                  <Link>
                     <motion.li
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 1.2 }} 
-                     ><FaFacebookF size={20} className="text-[#F56F46]"/></motion.li>
+                     ><FaFacebookF size={22} className="text-[#F56F46]"/>
+                     </motion.li>
+                  </Link>
+
                 </ul>
                 </div>
                 <div className="absolute left-0 w-full h-[1px] bg-white"></div>

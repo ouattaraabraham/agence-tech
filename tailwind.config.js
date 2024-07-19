@@ -20,11 +20,6 @@ export default {
     },
     extend: {
       keyframes: {
-        heroAnimation : {
-          '0%': {borderRadius: '60% 40% 30% 70% / 60% 30% 70% 40%'},
-          '50%': {borderRadius: '30% 60% 70% 40% / 50% 60% 30% 60%'},
-          '100%': {borderRadius: '60% 40% 30% 70% / 60% 30% 70% 40%'}
-        },
         temoignage: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)'},
@@ -35,7 +30,6 @@ export default {
         }
       },
       animation: {
-       heroAnimation: 'heroAnimation 9s ease-in-out infinite',
         temoignage: 'temoignage 30s linear infinite',
         temoin:'temoin 70s linear infinite',
       },

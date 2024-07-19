@@ -12,16 +12,21 @@ const ActiveSlider = () => {
   return (
     <div>
       <Swiper
-        breakpoints={{
+       breakpoints={{
           340: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 15,
           },
-          700: {
+          760: {
+            slidesPerView: 2,
+            spaceBetween: 25,
+          },
+          1000: {
             slidesPerView: 3,
             spaceBetween: 25,
           },
         }}
+       
         freeMode={true}
         pagination={{
           clickable: true,
@@ -31,9 +36,9 @@ const ActiveSlider = () => {
       >
         {DATAREALISATION.slider.map((item) => {
           return (
-          <SwiperSlide key={item.id}>
-           <div className=" cursor-grab  w-[80%] h-[350px] lg:w-[500px] lg:h-[500px] shadow-lg">
-             <div className="absolute inset-0 object-cover object-center" style={{backgroundImage:`url(${item.bgImg})`}}>
+          <SwiperSlide  key={item.id}>
+           <div className="relative cursor-grab  w-[95%] h-[300px]  sm:w-[80%] sm:h-[350px] md:w-[98%] lg:h-[400px] shadow-lg">
+             <div className="absolute  inset-0 object-cover object-center" style={{backgroundImage:`url(${item.bgImg})`}}>
 
              </div>
            </div>

@@ -7,7 +7,7 @@ export default function PourQuoiNous() {
                 <div className="lg:w-[75%]">
                     <h1 className="text-[#E0E0E0] font-semibold text-[25px] lg:text-[35px]">{DATAAPROPOS.pourQuoiNous.h1}</h1>
                     <div className="pt-5">
-                      {DATAAPROPOS.pourQuoiNous.p1?<p>{DATAAPROPOS.pourQuoiNous.p1}</p>:''}       
+                      {DATAAPROPOS.pourQuoiNous.p1?<p className="pt-4">{DATAAPROPOS.pourQuoiNous.p1}</p>:''}       
                       {DATAAPROPOS.pourQuoiNous.p2?<p className='pt-4'>{DATAAPROPOS.pourQuoiNous.p2}</p>:''}  
                       {DATAAPROPOS.pourQuoiNous.p3?<p className='pt-4'>{DATAAPROPOS.pourQuoiNous.p3}</p>:''} 
                       {DATAAPROPOS.pourQuoiNous.p4?<p className='pt-4'>{DATAAPROPOS.pourQuoiNous.p4}</p>:''}  

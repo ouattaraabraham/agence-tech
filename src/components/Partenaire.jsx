@@ -17,21 +17,27 @@ const Partenaire = ({boule}) => {
         </h1>
         {/* partenaire */}
         <div className="overflow-hidden pt-[100px] pb-[50px] lg:pt-[150px]">
-          <div className="flex gap-10 animate-temoignage hover:pause">
+          <div className="flex items-center gap-24 md:gap-32 animate-temoignage hover:pause">
             {DATAPARTENAIRE.logo.map((item, index) => {
               return (
                 <>
-                  <div key={index} className="relative">
+                <div key={index} className="relative">
                     <img
-                      className="max-w-[150px] lg:max-w-[250px]"
+                      className="max-w-[100px] lg:max-w-[200px]"
                       src={item}
                       alt="logo"
                     />
                   </div>
+                </>
+              );
+            })}
 
-                  <div key={index} className="relative">
+            {DATAPARTENAIRE.logo.map((item, index) => {
+              return (
+                <>
+                <div key={index} className="relative">
                     <img
-                      className="max-w-[150px] lg:max-w-[250px]"
+                      className="max-w-[100px] lg:max-w-[150px]"
                       src={item}
                       alt="logo"
                     />
@@ -47,7 +53,7 @@ const Partenaire = ({boule}) => {
 };
 
 Partenaire.propTypes ={
-  prop : propTypes.node ,
+  boule: propTypes.node ,
 }
 
 export default Partenaire;

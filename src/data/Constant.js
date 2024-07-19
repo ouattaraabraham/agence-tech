@@ -4,7 +4,7 @@
 // import { CiGlobe } from "react-icons/ci";
 
 
-import {logo, iconWeb, iconDesign, iconMarketing , iconGpPlus } from "../assets/icon";
+import {partenaire1,partenaire2,partenaireHPprestige,logo, iconWeb, iconDesign, iconMarketing , iconGpPlus, partenaire5, partenaire4, partenaire3, partenaire6 } from "../assets/icon";
 
 import {hero,design,marketing,equipeWeb,convertir,empoule,transformer,illus,serviceAcceuilWeb,marketteFone , heroAcceuil , projet1, projet2, projet3,projet4,projet5,projet6,projet7, image1} from "../assets/image"
 
@@ -12,58 +12,58 @@ import {hero,design,marketing,equipeWeb,convertir,empoule,transformer,illus,serv
 export const DATATEMOIN= [
   {
     id: 0,
-    p: "Je fais appel à HP Prestige pour le nettoyage de mon domicile depuis plusieurs mois et je suis ravie du service. L'équipe est ponctuelle, professionnelle et laisse ma maison impeccable à chaque visite. Je recommande vivement !",
-    img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
-    name: "Marie Dupont :",
-    work: "commercant",
+    p:"Astra One a su capturer l'essence de notre marque et la traduire en un site web magnifique. Leur équipe a été très réactive et professionnelle. Nous avons vu une augmentation significative du trafic sur notre site.",
+    img:"https://img.freepik.com/photos-gratuite/smiley-businesswoman-travaillant-ordinateur-portable_23-2148816808.jpg?t=st=1721380530~exp=1721384130~hmac=b7dccb84f760fbb7d1b29f80873e9c19cbabbe6db0957bdd9a83c1d987032520&w=740",
+    name: "Sophiane kaou",
+    work: "Chef projet",
     start:["start","start","start","start"]
   },
   {
     id: 1,
-    p:"En tant que gérant d'une entreprise, il est crucial pour moi d'avoir des locaux propres et accueillants. HP Prestige fait un travail remarquable en assurant le nettoyage de nos bureaux. Leur flexibilité et leur attention aux détails sont exceptionnelles.",
-    img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
-    name: "Jean-Pierre Martin",
-    work: "commercant",
+    p:"Travailler avec Astra One a été une expérience exceptionnelle. Leur expertise en marketing digital a considérablement amélioré notre présence en ligne. Nous recommandons vivement leurs services.",
+    img:"https://img.freepik.com/photos-gratuite/travail-couturier_1098-15863.jpg?t=st=1721380680~exp=1721384280~hmac=6b565e296c6fd2d1a6362349a47abbaec445b5d673fae20dfd617bcf25a596b8&w=900",
+    name: "Stephie Benoi",
+    work: "directeur",
     start:["start","start","start","start","start",]
   },
   {
-      id: 2,
-      p:"HP Prestige a transformé notre jardin en un véritable paradis. Leur équipe d'aménagement paysager a su créer un espace vert magnifique et facile à entretenir. Merci pour votre excellent travail !",
-      img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
-      name: "Sophie Leblanc",
-      work: "commercant",
-      start:["start","start","start","start"]
+    id: 2,
+    p:"Grâce à Astra One, notre entreprise a pu lancer une campagne de branding qui a véritablement fait la différence. Leur créativité et leur attention aux détails sont impressionnantes.",
+    img:"https://img.freepik.com/photos-gratuite/travail-couturier_1098-15863.jpg?t=st=1721380680~exp=1721384280~hmac=6b565e296c6fd2d1a6362349a47abbaec445b5d673fae20dfd617bcf25a596b8&w=900",
+    name: "Mimi Zowe",
+    work: "Chef de produit digital",
+    start:["start","start","start","start"]
   },
   {
   id: 3,
-  p:"Nous avions un sérieux problème de nuisibles dans notre restaurant. HP Prestige est intervenu rapidement et a résolu le problème de manière efficace. Depuis, nous n'avons plus aucun souci de ce côté-là. Un service de grande qualité !",
+  p:"Nous avons confié la création de notre application mobile à Astra One, et nous n'avons pas été déçus. L'application est intuitive, rapide et répond parfaitement à nos besoins. Un grand merci à toute l'équipe.",
   img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
-  name: "Laurent Petit ",
+  name: "Pdg",
   work: "commercant",
   start:["start","start","start","start"]
   },
   {
   id: 4,
-  p:"J'ai fait appel à HP Prestige pour la vidange de ma fosse septique et j'ai été impressionnée par leur professionnalisme et leur efficacité. L'équipe a travaillé rapidement et proprement. Je les recommande sans hésitation.",
+  p:"L'agence Astra One nous a aidés à refondre notre site web. Le résultat est au-delà de nos attentes. Le design est moderne et la navigation est fluide. Nous avons reçu de nombreux compliments de nos clients.",
   img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
-  name: "Claire Fournier",
-  work: "commercant",
+  name: "Isabelle Karamoko",
+  work: "Directrice",
   start:["start","start","start","start","start",]
   },
   {
     id: 5,
-    p:"La gestion des déchets de notre entreprise est devenue beaucoup plus simple grâce à HP Prestige. Leur service de collecte et de tri est impeccable, et leur engagement en faveur de l'environnement est un plus indéniable.",
+    p:"Le service de marketing digital d'Astra One a transformé notre approche commerciale. Leur équipe est compétente et toujours disponible pour répondre à nos questions. Nos ventes ont considérablement augmenté.",
     img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
-    name: "Michel Lambert ",
+    name: "Dambele Abdoul ",
     work: "commercant",
     start:["start","start","start","start","start",]
     },
     {
       id: 6,
-      p:"Après une rénovation majeure de notre maison, nous avions besoin d'un grand nettoyage. HP Prestige a fait un travail extraordinaire, laissant chaque recoin de notre maison étincelant. Leur équipe est efficace et très amicale. Merci encore !",
+      p:"Astra One a été un partenaire clé dans le développement de notre stratégie de communication. Leur approche personnalisée et leur compréhension de notre marché ont été déterminantes pour notre succès.",
       img: "https://img.freepik.com/photos-gratuite/worldface-american-femme-dans-fond-blanc_53876-41668.jpg?t=st=1721200924~exp=1721204524~hmac=124a14b749b47138f773fdd7737d114b312e6e3ca62688f85b649aeab5e89668&w=740",
       name: "Isabelle Moreau",
-      work: "commercant",
+      work: "Responsable marketing",
       start:["start","start","start","start","start",]
       },
   
@@ -493,7 +493,6 @@ export const DATASERVICECREATION = {
     },
   ],
 };
-
 //DATA PRESANTATION
 export const DATAPRESANTATION = {
   siteWeb: {
@@ -521,17 +520,18 @@ export const DATAAPROPOS ={
   header:{
     left:{
       txt1:"Notre Histoire",
-      p1:"Aujourd’hui, Astra One est une fine équipe de près de 30 collaborateurs, très soudés et talentueux, orchestrée par une équipe de Direction constituée de Hadrien Macé et Clémentine Micolle.",
-      p2:"Aujourd’hui, 33° est une fine équipe de près de 30 collaborateurs, très soudés et talentueux, orchestrée par une équipe de Direction constituée de Hadrien Macé et Clémentine Micolle. Aujourd’hui, 33° est une fine équipe de près de 30 collaborateurs, très soudés et talentueux, orchestrée par une équipe de Direction constituée de Hadrien Macé et Clémentine Micolle. Aujo de 30 collaborateurs, très soudés et talentueux, orchestrée par une équipe de Direction constituée de Hadrien Macé et Clémentine Micolle.",
+      p1:"Fondée Par Abraham Ouattara, Astra One est née de la passion de ses fondateurs pour la communication digitale et le développement web. Dès ses débuts, l'agence s'est donné pour mission de transformer les idées créatives en solutions digitales innovantes.",
+      p2:"Ce qui a commencé comme une petite équipe dédiée a rapidement évolué pour devenir une entreprise reconnue dans le domaine, grâce à notre engagement envers l'excellence et notre capacité à anticiper les tendances du marché. En combinant expertise technique et créativité, Astra One a su bâtir une solide réputation en aidant des entreprises de toutes tailles à se démarquer en ligne.",
+      p3:"Aujourd'hui, notre équipe de professionnels expérimentés continue de pousser les limites de la technologie et du design, en offrant des solutions personnalisées qui répondent aux besoins spécifiques de nos clients. Chaque projet est une nouvelle opportunité pour nous de réinventer et d'innover, toujours avec la même passion qui a motivé nos premiers pas.",
     },
     right:{
       img:"https://img.freepik.com/photos-gratuite/groupe-afro-americains-travaillant-ensemble_1303-8970.jpg?t=st=1720586173~exp=1720589773~hmac=5a1f836a38b050c65fa3c0a0f5ae50e955f1c58000cb3983a5850300b414a0bd&w=900",
     }
   },
   pourQuoiNous:{
-    h1:"Pourquoi « Tech-Monidal »",
-    p1:"Je suis un entrepreneur français dans un espace très encombré et compétitif.",
-    p2:"Je voulais créer une marque mémorable, qui pique la curiosité et qui y ajoute implicitement une « touche française ». J’ai donc pris une tasse, j’y ai ajouté un peu de Pulp Fiction (vous vous souvenez de la fameuse discussion sur le Quarter Pounder with Cheese dans la voiture ?), j’ai mélangé le tout avec un jeu de mots intentionnel sur mon nom de famille, et voilà.",
+    h1:"Pourquoi « AstraOne »",
+    p1:"Chez Astra One, nous croyons que chaque projet est unique et mérite une attention particulière. Notre approche personnalisée et notre engagement envers l'excellence nous distinguent dans le domaine de la communication et du développement web.",
+    p2:"Choisir Astra One, c'est opter pour un partenaire dévoué à votre succès. Ensemble, nous pouvons créer des expériences digitales qui captivent et engagent votre audience, tout en renforçant votre marque.",
     logo:Logo,
   },
   expertise:{
@@ -660,9 +660,7 @@ export const DATACONTACTER = {
 
 export const DATAPARTENAIRE = {
   h1:"ILS NOUS FONT CONFIANCE",
-  logo:[logo,logo,logo,logo,logo,logo,logo,logo
-
-  ],
+  logo:[partenaire1,partenaire2,partenaire3,partenaire4,partenaire5,partenaire6,partenaireHPprestige],
 }
 
 // DATA CONTACT
