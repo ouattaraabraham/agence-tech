@@ -15,7 +15,7 @@ import './index.css'
 
 const rooter= createBrowserRouter([
      {
-      path: "/" ,
+      path: "/agence-tech/" ,
       element: <App/> ,
       errorElement: <ErrorPage/>,
       children:[
@@ -24,29 +24,29 @@ const rooter= createBrowserRouter([
           element:<Acceuil/>,
         },
         {
-          path:"web-design",
+          path:"/agence-tech/web-design",
           element:<WebSite/>,
         },
         {
-          path:"design-branding",
+          path:"/agence-tech/design-branding",
           element:<DesignBranding/>,
          },
         {
-          path:"marketing",
+          path:"/agence-tech/marketing",
           element:<Marketing/>,
         },
         {
-          path:"apropos",
+          path:"/agence-tech/apropos",
           element:<Apropos/>,
         },
         {
-          path:"contact",
+          path:"/agence-tech/contact",
           element:<Contact/>,
         },
-      ],
-           },    
+      ]
+        } 
 ],
-{basename: "/agence-tech"}
+// {basename: "/agence-tech"}
 )
 
 

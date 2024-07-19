@@ -121,50 +121,18 @@ export const DATAACCEUIL ={
 
 // NEW DATA NAVLINK
 export const DATANAVLINK = [
-  {id:0,name: "ACCEUIL", link: "/" },
+  {id:0,name: "ACCEUIL", link: "/agence-tech/" },
   {id:1, name: "SERVICES",sousLink:[
-    {id:0,name:"SITE WEB",link:"/web-design",icon:iconWeb,},
-    {id:1,name:"DESIGN & BRANDING",link:"/design-branding",icon:iconDesign,},
-    {id:2,name:"MARKETING",link:"/marketing",icon:iconMarketing,},
+    {id:0,name:"SITE WEB",link:"/agence-tech/web-design",icon:iconWeb,},
+    {id:1,name:"DESIGN & BRANDING",link:"/agence-tech/design-branding",icon:iconDesign,},
+    {id:2,name:"MARKETING",link:"/agence-tech/marketing",icon:iconMarketing,},
   ]},
-  {id:2, name: "RÉALISATION", link: "/#" },
-  {id:3, name: "AGENCE", link: "/apropos" },
-  {id:4, name: "CONTACTER", link: "/contact" },
+  {id:2, name: "RÉALISATION", link: "/agence-tech/" },
+  {id:3, name: "AGENCE", link: "/agence-tech/apropos" },
+  {id:4, name: "CONTACTER", link: "/agence-tech/contact" },
 ];
 
-// DATA NAVLINK
-export const DATANAVLINKK = {
-  links:{
-    acceuil:{
-      name:"ACCEUIL",link:"/",
-    },
-    service:{
-      name:"SERVICE",icon:"",
-    },
-    realisation:{
-      name:"RÉALISATION",link:"/#",
-    },
-    agence:{
-      name:"AGENCE",link:"/apropos",
-    },
-    contacter:{
-      name:"CONTACTER",link:"/contact",
-    },
-  },
 
-  sousLink:{ 
-    mobile:[
-      {id:1, name:"SITE WEB", link:"/web-design",},
-      {id:2, name:"DESIGN & BRANDING", link:"/design-branding",},
-      {id:3, name:"MARKETING", link:"/marketing",},
-  ],    
-  desktop:[
-    {id:1, name:"SITE WEB", link:"/web-design", icon:iconWeb,},
-    {id:2, name:"DESIGN & BRANDING", link:"/design-branding",icon:iconDesign,},
-    {id:3, name:"MARKETING", link:"/marketing",icon:iconMarketing,},
-],
-  }
-}
 
 //DATA REALISATION
 
