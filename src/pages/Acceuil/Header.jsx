@@ -3,7 +3,7 @@ import Btn from "../../components/Btn"
 import { NavLink } from "react-router-dom";
 
 
-const style="py-2 px-4 lg:py-4 lg:px-7 lg:mt-2 lg:mb-2"
+const style="py-3 px-4 lg:py-4 lg:px-7 lg:mt-2 lg:mb-2"
 const Header = () => {
     return (
       <section >

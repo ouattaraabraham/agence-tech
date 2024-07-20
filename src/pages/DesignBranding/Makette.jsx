@@ -1,5 +1,5 @@
 import {DATABRANDING } from "../../data/Constant";
-import { ifone } from "../../assets/image";
+
 const Makette = () => {
   return (
     <section className="bg-[#f0f8ff]">
@@ -8,7 +8,7 @@ const Makette = () => {
           <div className="mb-24 lg:mb-0 lg:w-[45%] text-[20px] lg:text-[24px]">
             {DATABRANDING.markette.txt.map((item) => {
               return (
-                <div key={item.id} className="relative text-black mb-8">
+                <div key={item.id} className="relative text-black mb-8 md:mb-12">
                   <div
                     key={item.id}
                     className="pb-2 px-1 text-slate-800 font-bold flex justify-between"
@@ -21,11 +21,13 @@ const Makette = () => {
               );
             })}
           </div>
-          <img
-            className="m-auto lg:m-0 w-[80%] lg:w-[40%]"
-            src={ifone}
-            alt={DATABRANDING.markette.img.name}
-          />
+           <div className="lg:w-[50%] lg:flex justify-center">
+           <img
+                className="m-auto lg:m-0 w-[50%] lg:w-[35%]"
+                src={DATABRANDING.markette.img.img}
+                alt={DATABRANDING.markette.img.name}
+              /> 
+           </div>
         </div>
       </div>
     </section>

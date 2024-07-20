@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <div className="shadow-navBarr z-50">
       <header className="z-30 w-full shadow-md bg-[#002057]">
-        <div className="w-full drop-shadow-sm flex justify-between mx-auto py-[1rem] px-[.75rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
+        <div className="w-full drop-shadow-sm flex justify-between mx-auto py-[1rem] px-[20px] sm:px-[.75rem]  sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
           <Logo />
           <Nav />
         </div>
@@ -43,7 +43,7 @@ const Header = () => {
       {
        ( scrollValue) &&  (
         <header className={`fixed top-0 z-20 w-full shadow-md bg-[#002057]`}>
-        <div className="w-full drop-shadow-sm flex justify-between mx-auto py-[1rem] px-[.75rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
+        <div className="w-full drop-shadow-sm flex justify-between mx-auto py-[1rem] px-[20px] sm:px-[.75rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320px] 3xl:max-w-[1620px]">
           <Logo />
           <Nav />
         </div>

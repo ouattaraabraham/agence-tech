@@ -1,12 +1,8 @@
-// import { FaFacebookF } from "react-icons/fa";
-// import { FaWhatsapp } from "react-icons/fa";
-// import { FaLinkedinIn } from "react-icons/fa";
-// import { CiGlobe } from "react-icons/ci";
 
 
 import {partenaire1,partenaire2,partenaireHPprestige,logo, iconWeb, iconDesign, iconMarketing , iconGpPlus, partenaire5, partenaire4, partenaire3, partenaire6 } from "../assets/icon";
 
-import {hero,design,marketing,equipeWeb,convertir,empoule,transformer,illus,serviceAcceuilWeb,marketteFone , heroAcceuil , projet1, projet2, projet3,projet4,projet5,projet6,projet7, image1} from "../assets/image"
+import {hero,design,marketing,equipeWeb,convertir,empoule,transformer, heroAcceuil , projet1, projet2, projet3,projet4,projet5,projet6,projet7, ifone} from "../assets/image"
 
 // DATA TEMOIN 
 export const DATATEMOIN= [
@@ -70,7 +66,6 @@ export const DATATEMOIN= [
 ];
 
 
-export const Illus=illus
 //logo
 
 export const Logo= logo
@@ -150,6 +145,7 @@ export const DATAREALISATION = {
 }
 
 //DATA BRANDING
+
 export const DATABRANDING= {
     presantation: {
       txt1: "Branding & Creation ?",
@@ -196,7 +192,7 @@ export const DATABRANDING= {
       },
     ],
     markette:  {
-      img:{img:marketteFone,name:"markette-fone"},
+      img:{img:ifone,name:"markette-fone"},
       txt:[
         {id:1,span1:"Reussite design", span2:"100%",},
         {id:2,span1:"Identité unique", span2:"100%",},
@@ -213,7 +209,7 @@ export const DATAMARKETING = {
     p2:"En confiant la gestion de leurs réseaux sociaux à une agence spécialisée comme Astra One, les entreprises peuvent bénéficier de l'expertise et de l'expérience nécessaires pour élaborer et exécuter des stratégies efficaces. Cela leur permet de se concentrer sur leur cœur de métier tout en tirant le meilleur parti des possibilités offertes par les médias sociaux.",
   },
   serviceMarketing : {
-    img:image1,
+    img:"https://img.freepik.com/photos-gratuite/personnes-travaillant-documents-au-dessus-vue_23-2149762482.jpg?t=st=1721472107~exp=1721475707~hmac=743c6f19b97c06735d80b0b39c9dc1c8162acc25561d50caf48d297c20462f31&w=900",
     h2:"UNE IDENTITÉ VISUELLE INOUBLIABLE",
     p:[
       "POUR MARQUER LES ESPRITS, L’IDENTITÉ VISUELLE D’UNE MARQUE NE SELIMITE PAS À SON LOGO.",
@@ -350,149 +346,7 @@ export const DATASERVICEAPROPOS = [
       btn:"EN SAVOIR PLUS",
      },
 ]
-//DATA SERVICECREATION
-export const DATASERVICECREATION = {
-  acceuil: {h2:"NOS SERVICES CREATION",service:[
-    {
-      id: 0,
-      link:"/web-design",
-      img: serviceAcceuilWeb,
-      name: "Conception site web",
-      p:"Nous développons une stratégie de site Web et faisons preuve de créativité pour vous créer un site sophistiqué qui offre une expérience utilisateur incroyable et génère des résultats commerciaux tangibles.",
-      h3:"Voir plus",   
-    },
-    {
-      id: 1,
-      link:"/design-branding",
-      img: serviceAcceuilWeb,
-      name: "Marketing ",
-      p:"Nous développons une stratégie de site Web et faisons preuve de créativité pour vous créer un site sophistiqué qui offre une expérience utilisateur incroyable et génère des résultats commerciaux tangibles.",
-      h3:"Voir plus",
-    },
-    {
-      id: 2,
-      link:"/marketing",
-      img: serviceAcceuilWeb,
-      name: "Branding & creation",
-      p:"Nous développons une stratégie de site Web et faisons preuve de créativité pour vous créer un site sophistiqué qui offre une expérience utilisateur incroyable et génère des résultats commerciaux tangibles.",
-      h3:"Voir plus",
-    },
-  ]},
-  siteWeb: [
-    {
-      id: 1,
-      icon: iconWeb,
-      name: "SITE WEB",
-      service: [
-        "Création & Refonte de logo.",
-        "Modernisation & Retouches.",
-        "Création d’identité visuelle.",
-        "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes.",
-        "Création de templates graphiques.",
-      ],
-    },
-    {
-      id: 2,
-      icon: iconWeb,
-      name: "MARKETING2",
-      service: [
-        "Création & Refonte de logo.",
-        "Modernisation & Retouches.",
-        "Création d’identité visuelle.",
-        "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes.",
-        "Création de templates graphiques.",
-      ],
-    },
-    {
-      id: 3,
-      icon: iconWeb,
-      name: "BRANDING $ CREATION",
-      service: [
-        "Création & Refonte de logo.",
-        "Modernisation & Retouches.",
-        "Création d’identité visuelle.",
-        "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes.",
-        "Création de templates graphiques.",
-      ],
-    },
-  ],
-  branding: [
-    {
-      id: 1,
-      icon: iconWeb,
-      name: "BRANDING",
-      service: [
-        "Création & Refonte de logo.",
-        "Modernisation & Retouches.",
-        "Création d’identité visuelle.",
-        "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes.",
-        "Création de templates graphiques.",
-      ],
-    },
-    {
-      id: 2,
-      icon: iconWeb,
-      name: "MARKETING",
-      service: [
-        "Création & Refonte de logo.",
-        "Modernisation & Retouches.",
-        "Création d’identité visuelle.",
-        "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes.",
-        "Création de templates graphiques.",
-      ],
-    },
-    {
-      id: 3,
-      icon: iconWeb,
-      name: "BRANDING $ CREATION",
-      service: [
-        "Création & Refonte de logo.",
-        "Modernisation & Retouches.",
-        "Création d’identité visuelle.",
-        "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes.",
-        "Création de templates graphiques.",
-      ],
-    },
-  ],
-  marketing: [
-    {
-      id: 1,
-      icon: iconWeb,
-      name: "MARKETING",
-      service: [
-        "Création & Refonte de logo.",
-        "Modernisation & Retouches.",
-        "Création d’identité visuelle.",
-        "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes.",
-        "Création de templates graphiques.",
-      ],
-    },
-    {
-      id: 2,
-      icon: iconWeb,
-      name: "MARKETING",
-      service: [
-        "Création & Refonte de logo.",
-        "Modernisation & Retouches.",
-        "Création d’identité visuelle.",
-        "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes.",
-        "Création de templates graphiques.",
-      ],
-    },
-    {
-      id: 3,
-      icon: iconWeb,
-      name: "MARKETING",
-      service: [
-        "Création & Refonte de logo.",
-        "Modernisation & Retouches.",
-        "Création d’identité visuelle.",
-        "Rédaction de charte graphique avec règles et usages pour vos collaborateurs internes et externes.",
-        "Création de templates graphiques.",
-      ],
-    },
-  ],
-};
+
 //DATA PRESANTATION
 export const DATAPRESANTATION = {
   siteWeb: {
@@ -638,7 +492,7 @@ export const DATACHEMAT = {
     };
 //DATA BRANDING
 export const MARKETTE = {
-  img:{img:marketteFone,name:"markette-fone"},
+  img:{img:ifone,name:"markette-fone"},
   txt:[
     {id:1,span1:"Reussite design", span2:"100%",},
     {id:2,span1:"Reussite design", span2:"100%",},
@@ -653,7 +507,7 @@ export const DATACONTACTER = {
     h3:"CHEMIN VERS LE SUCCES",
     p:"Prêt à démarrer votre projet? Contactez-nous dès aujourd'hui pour discuter de vos besoins et découvrir comment nous pouvons vous aider à atteindre vos objectifs en ligne.",
     img:iconGpPlus,
-    link:{content:"contacter-Nous",link:"/contact"},
+    link:{content:"contacter-Nous",link:"/agence-tech/contact"},
 }
 
 //DATA PARTENAIRE
@@ -667,7 +521,7 @@ export const DATAPARTENAIRE = {
 
 
 export  const DATACONTACT = {
-  leftImage:image1,
+  leftImage:"https://img.freepik.com/photos-gratuite/personnes-travaillant-documents-au-dessus-vue_23-2149762482.jpg?t=st=1721472107~exp=1721475707~hmac=743c6f19b97c06735d80b0b39c9dc1c8162acc25561d50caf48d297c20462f31&w=900",
   left :{
     h1: " Nous contacter", 
     p1: "Venez échanger avec nous à propos de vos besoins, votre problématique ou tout simplement pour faire notre connaissance",

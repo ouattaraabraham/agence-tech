@@ -24,15 +24,14 @@ export default {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)'},
         },
-        temoin: {
+        partenaire: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-80%)'},
-        }
+          '100%': { transform: 'translateX(-200%)'},
+        },
       },
       animation: {
-        temoignage: 'temoignage 30s linear infinite',
-        temoin:'temoin 70s linear infinite',
-        temoinMobil:'temoin 20s linear infinite',
+        temoignage: 'temoignage 70s linear infinite',
+        partenaire:'partenaire 40s linear infinite',
 
       },
       boxShadow:{

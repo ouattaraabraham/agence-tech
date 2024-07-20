@@ -114,7 +114,7 @@ const Temoin = () => {
       <div className="py-[50px] lg:py-[100px]">
         {/* partenaire */}
         <div className="relative overflow-hidden py-[50px]">
-          <div className="flex items-center w-fit gap-5 animate-temoinMobil md:animate-temoin hover:pause">
+          <div className="flex items-center w-fit gap-5 animate-temoignage hover:pause">
             {DATATEMOIN.map((item) => {
               return (
                 <>
