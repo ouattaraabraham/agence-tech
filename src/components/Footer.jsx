@@ -43,8 +43,7 @@ const Footer = () => {
             </div> 
            
              {/* div-bas */}
-             <div className="pb-4 pt-3 flex justify-between text-[12px] lg:text-[14px] py-2">
-                <a href="">{DATAFOOTER.siteWeb}</a>
+             <div className="pb-4 pt-3 flex justify-center text-[12px] lg:text-[14px] py-2">
                 <p>{DATAFOOTER.legal}</p>
              </div>
           </div>

@@ -22,16 +22,22 @@ export default {
       keyframes: {
         temoignage: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)'},
+          '100%': { transform: 'translateX(-50%)'},
+        },
+        partenaireLg: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-170%)'},
         },
         partenaire: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-200%)'},
+          '100%': { transform: 'translateX(-310%)'},
         },
       },
       animation: {
-        temoignage: 'temoignage 70s linear infinite',
-        partenaire:'partenaire 40s linear infinite',
+        temoignage: 'temoignage 30s linear infinite',
+        partenaire:'partenaire 15s linear infinite',
+        partenaireLg:'partenaireLg 20s linear infinite',
+
 
       },
       boxShadow:{

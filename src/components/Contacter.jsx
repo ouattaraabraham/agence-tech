@@ -11,7 +11,6 @@ const Contacter = () => {
                 <div>
                     <h3 className="text-[#FFF5CC] font-semibold pb-5 lg:pb-10 text-[20px] lg:text-[22px]">{DATACONTACTER.h3}</h3>
                     <p className="pb-5 lg:pb-10">{DATACONTACTER.p}</p>
-                    <img className="lg:w-[200px]" src={DATACONTACTER.img} alt="logo-plus" />
                 </div>
                 <div className="mt-[25px] md:mt-[35px] lg:mt-0 lg:mr-4">
                  <NavLink to={DATACONTACTER.link.link}>

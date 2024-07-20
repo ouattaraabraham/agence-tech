@@ -17,7 +17,7 @@ const Partenaire = ({boule}) => {
         </h1>
         {/* partenaire */}
         <div className="overflow-hidden pt-[100px] pb-[50px] lg:pt-[150px]">
-          <div className="flex items-center gap-24 md:gap-32 animate-partenaire hover:pause">
+          <div className="flex items-center gap-24 md:gap-32 animate-partenaire lg:animate-partenaireLg hover:pause">
             {DATAPARTENAIRE.logo.map((item, index) => {
               return (
                 <>

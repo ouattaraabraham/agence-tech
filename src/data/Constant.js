@@ -76,7 +76,7 @@ export const DATAACCEUIL ={
     left : {
       h1 : "Agence Marketing Digital & Web",
       p : "Nous sommes Astra One, votre partenaire de confiance pour des solutions de communication, design, UX, et de développement d'applications web innovantes. Notre mission est de transformer vos idées en réalités numériques, en vous offrant des services de haute qualité adaptés à vos besoins spécifiques.",
-      btn : {txt:"contacter-Nous" , link : "/contact",},
+      btn : {txt:"contacter-Nous" , link : "/agence-tech/contact",},
     },
     right : {
       img : heroAcceuil ,
@@ -88,7 +88,7 @@ export const DATAACCEUIL ={
     service:[
     {
       id: 0,
-      link:"/web-design",
+      link:"/agence-tech/web-design",
       img: equipeWeb,
       name: "Conception site web",
       p:"Nous adoptons une approche personnalisée pour chaque projet de création de site internet. Notre équipe d'experts travaille en étroite collaboration avec vous pour comprendre vos objectifs, votre public cible et les spécificités de votre secteur.",
@@ -96,7 +96,7 @@ export const DATAACCEUIL ={
     },
     {
       id: 1,
-      link:"/design-branding",
+      link:"/agence-tech/design-branding",
       img: design,
       name: "design & branding ",
       p:"Nous développons une stratégie de site Web et faisons preuve de créativité pour vous créer un site sophistiqué qui offre une expérience utilisateur incroyable et génère des résultats commerciaux tangibles.",
@@ -104,7 +104,7 @@ export const DATAACCEUIL ={
     },
     {
       id: 2,
-      link:"/marketing",
+      link:"/agence-tech/marketing",
       img: marketing,
       name: "Branding & creation",
       p:"Nous développons une stratégie de site Web et faisons preuve de créativité pour vous créer un site sophistiqué qui offre une expérience utilisateur incroyable et génère des résultats commerciaux tangibles.",
@@ -561,5 +561,5 @@ export const DATAFOOTER = {
     {id:2,name:"linkedin",link:"#",},
   ] ,
   siteWeb:"tech.con",
-  legal:"Tous droits réserver 2024",
+  legal:"Tous droits réservés 2024",
 }
