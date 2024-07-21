@@ -16,11 +16,10 @@ const Partenaire = ({boule}) => {
           {DATAPARTENAIRE.h1}{" "}
         </h1>
         {/* partenaire */}
-        <div className="overflow-hidden pt-[100px] pb-[50px] lg:pt-[150px]">
-          <div className="flex items-center gap-24 md:gap-32 animate-partenaire lg:animate-partenaireLg hover:pause">
-            {DATAPARTENAIRE.logo.map((item, index) => {
+        <div className="relative overflow-hidden pt-[100px] pb-[50px] lg:pt-[150px]">
+          <div className="flex items-center w-fit gap-24 animate-partenaire hover:pause">
+          {DATAPARTENAIRE.logo.map((item, index) => {
               return (
-                <>
                 <div key={index} className="relative">
                     <img
                       className="max-w-[100px] lg:max-w-[200px]"
@@ -28,23 +27,21 @@ const Partenaire = ({boule}) => {
                       alt="logo"
                     />
                   </div>
-                </>
               );
             })}
 
             {DATAPARTENAIRE.logo.map((item, index) => {
               return (
-                <>
                 <div key={index} className="relative">
                     <img
-                      className="max-w-[100px] lg:max-w-[150px]"
+                      className="max-w-[100px] lg:max-w-[200px]"
                       src={item}
                       alt="logo"
                     />
                   </div>
-                </>
               );
             })}
+
           </div>
         </div>
       </div>

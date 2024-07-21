@@ -3,7 +3,7 @@ import { DATAMARKETING } from "../../data/Constant";
 const ChiffreQuiParle = () => {
   return (
     <section className="bg-[#01225c]">
-      <div className="mx-auto flex flex-col items-center pt-[100px] md:py-[100px] px-[.75rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320pxx] 3xl:max-w-[1620pxx]">
+      <div className="mx-auto flex flex-col items-center pt-[50px] md:py-[100px] px-[.75rem] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] 2xl:max-w-[1320pxx] 3xl:max-w-[1620pxx]">
         <Boules/>
         <h3 className="font-semibold pt-[50px] pb-6 text-center text-[14px] lg:text-[18px]">
           {DATAMARKETING.chiffreQuiParle.h3}

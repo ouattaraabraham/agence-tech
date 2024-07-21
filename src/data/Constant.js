@@ -2,7 +2,7 @@
 
 import {partenaire1,partenaire2,partenaireHPprestige,logo, iconWeb, iconDesign, iconMarketing , iconGpPlus, partenaire5, partenaire4, partenaire3, partenaire6 } from "../assets/icon";
 
-import {hero,design,marketing,equipeWeb,convertir,empoule,transformer, heroAcceuil , projet1, projet2, projet3,projet4,projet5,projet6,projet7, ifone} from "../assets/image"
+import {hero,design,marketing,equipeWeb,convertir,empoule,transformer, heroAcceuil , projet1, projet2, projet3,projet4,projet5,projet6,projet7, ifone, eCommerce, refonte} from "../assets/image"
 
 // DATA TEMOIN 
 export const DATATEMOIN= [
@@ -283,7 +283,7 @@ export const DATAWEB = {
     },
     {
       id: 2,
-      icon: iconWeb,
+      icon: eCommerce,
       name: "Sites E-commerce",
       service: [
         "Analyse des Besoins et Objectifs.",
@@ -300,7 +300,7 @@ export const DATAWEB = {
     },
     {
       id: 3,
-      icon:iconWeb ,
+      icon:refonte ,
       name: "Sites Personnalisés",
       service: [
         "Analyse et Évaluation du Site Actuel.",
@@ -438,21 +438,21 @@ export const AUTRESERVICE = {
       h3: "Marketing-digital",
       img: iconMarketing,
       p: "graphisme / print / web / motion design / vidéo  illustration / 3D / photo / tournage / podcast",
-      link: { link: "/marketing", name: "En savoir plus" },
+      link: { link: "/agence-tech/marketing", name: "En savoir plus" },
     },
     {
       id: 1,
       h3: "Site web",
       img: iconWeb,
       p: "graphisme / print / web / motion design / vidéo  illustration / 3D / photo / tournage / podcast",
-      link: { link: "/web-design", name: "En savoir plus" },
+      link: { link: "/agence-tech/web-design", name: "En savoir plus" },
     },
     {
       id: 3,
       h3: "Branding & design",
       img: iconDesign,
       p: "graphisme / print / web / motion design / vidéo  illustration / 3D / photo / tournage / podcast",
-      link: { link: "/design-branding", name: "En savoir plus" },
+      link: { link: "/agence-tech/design-branding", name: "En savoir plus" },
     },
   ],
 };

@@ -16,6 +16,10 @@ export {default as design} from "./design.jpg"
 export {default as fuse2} from "./fuse.svg"
 export {default as hero} from "./hero-4.png"
 export {default as ifone} from "./iphone.png"
+export {default as refonte} from "./refonte.png"
+export {default as eCommerce} from "./e-commerce.png"
+
+
 
 
 

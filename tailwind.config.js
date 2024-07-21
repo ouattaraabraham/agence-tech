@@ -24,21 +24,14 @@ export default {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)'},
         },
-        partenaireLg: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-170%)'},
-        },
         partenaire: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-310%)'},
+          '100%': { transform: 'translateX(-51.5%)'},
         },
       },
       animation: {
         temoignage: 'temoignage 30s linear infinite',
         partenaire:'partenaire 15s linear infinite',
-        partenaireLg:'partenaireLg 20s linear infinite',
-
-
       },
       boxShadow:{
         navBar:'0 1px 5px #030c1e'
