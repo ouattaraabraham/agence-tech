@@ -12,12 +12,11 @@ import Apropos from './pages/Apropos/index.jsx'
 import Contact from './pages/Contact/index.jsx'
 import './index.css'
 import Realisation from './pages/Realisation/index.jsx'
-import HpPrestige from './pages/Realisation/HpPrestige/index.jsx'
 
 
 const rooter= createBrowserRouter([
      {
-      path: "/agence-tech/" ,
+      path: "/" ,
       element: <App/> ,
       errorElement: <ErrorPage/>,
       children:[
@@ -26,41 +25,33 @@ const rooter= createBrowserRouter([
           element:<Acceuil/>,
         },
         {
-          path:"/agence-tech/web-design",
+          path:"/web-design",
           element:<WebSite/>,
         },
         {
-          path:"/agence-tech/design-branding",
+          path:"/design-branding",
           element:<DesignBranding/>,
          },
         {
-          path:"/agence-tech/marketing",
+          path:"/marketing",
           element:<Marketing/>,
         },
         {
-          path:"/agence-tech/realisation",
+          path:"/realisation",
           element:<Realisation/>,
         },
         {
-          path:"/agence-tech/realisation/hp-prestige",
-          element:<HpPrestige/>,
-        },
-        {
-          path:"/agence-tech/realisation/eve-event-glorie",
-          element:<Realisation/>,
-        },
-        {
-          path:"/agence-tech/apropos",
+          path:"/apropos",
           element:<Apropos/>,
         },
         {
-          path:"/agence-tech/contact",
+          path:"/contact",
           element:<Contact/>,
         },
       ]
         } 
 ],
-// {basename: "/agence-tech"}
+{basename: "/astraone.tech"}
 )
 
 
