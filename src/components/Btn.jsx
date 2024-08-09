@@ -18,7 +18,6 @@ import { CgArrowTopRight } from "react-icons/cg";
               }
    
       const textMotion = {
-       
         hover: {
           // color: "blue",
           x: 10,
@@ -30,6 +29,7 @@ import { CgArrowTopRight } from "react-icons/cg";
           }
         }
       };
+
     return (
         <motion.button
           type={type?"submit":""}

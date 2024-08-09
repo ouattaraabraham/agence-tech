@@ -2,8 +2,42 @@
 
 import {partenaire1,partenaire2,partenaireHPprestige,logo, iconWeb, iconDesign, iconMarketing , iconGpPlus, partenaire5, partenaire4, partenaire3, partenaire6 } from "../assets/icon";
 
-import {hero,design,marketing,equipeWeb,convertir,empoule,transformer, heroAcceuil , projet1, projet2, projet3,projet4,projet5,projet6,projet7, ifone, eCommerce, refonte} from "../assets/image"
+import {eventFiesta,eveEvent,hpPrestige,hero,design,marketing,equipeWeb,convertir,empoule,transformer, heroAcceuil , projet1, projet2, projet3,projet4,projet5,projet6,projet7, ifone, eCommerce, refonte, luxHotel} from "../assets/image"
 
+
+
+// DATA_PROJETS
+
+export const DATA_PROJETS={
+      h2:"Nos réalisations d'applications dans la transformation digitale",
+      h3:"Nos clients nous ont exprimés leurs besoins et leurs problématiques, nous avons pris en charge le reste !Rédaction de l’expression de besoin, montage et pilotage du projet, réalisation des maquettes, coding itératif, tests utilisateurs et support à l’utilisateur.",
+      projets:[
+          {
+          h3:"hpPrestige l'hygiène pure pour votre environnement !",
+          p:"hpPrestige a été impressionné et satisfait par tout le boulot que nous avons réaliser pour eux logo, carte de visite, affiche publicitaire, ainsi que leur site internet.  !",
+          img:hpPrestige,
+          link:{true:true , link:"https://hp-prestige.vercel.app/"},
+          },
+          {
+            h3:"EveEvent votre décoratrice et organisateur événementielle qui réalise des conte de fée .!",
+            p:"Avec EveEvent, nous avons plongé dans un décor floral avec une seule envie, réaliser un site attrayant tout comme ce que EveEvent désirait depuis longtemps ce qui a augmenté sa visibilité et la confiance ses clients. !",
+            img:eveEvent,
+            link:{true:true , link:"https://eve-event.vercel.app/"},
+          },
+          {
+            h3:"Hotel Lux est un model de projet que nous présentons  !",
+            p:"Lux Hotel est un site semblable au site que nous avons réalisé pour l'un de nos clients, nous avons ajouté à celui de notre client des fonctionnalités avancé comme le payement en ligne ce qui est fabuleux !",
+            img:luxHotel,
+            link:{true:true , link:"https://ouattaraabraham.github.io/lux-hotel/"},
+          },
+          {
+            h3:"Event-fiesta la demo d'un projet evenementiel !",
+            p:"Event-fiesta est une démo d'un superbe projet événementiel pour l'un de nos clients, ce projet nous a fait réaliser une base de données pour des données volumineuse, nous avons réalisé le backend tout comme front-end sa été une très belle réussite pour nous et surtout de le réaliser à temps !",
+            img:eventFiesta,
+            link:{true:false ,link:"", linkVisite:"https://ouattaraabraham.github.io/event-fiesta/"},
+          },
+      ]
+}
 // DATA TEMOIN 
 export const DATATEMOIN= [
   {
@@ -122,7 +156,7 @@ export const DATANAVLINK = [
     {id:1,name:"DESIGN & BRANDING",link:"/agence-tech/design-branding",icon:iconDesign,},
     {id:2,name:"MARKETING",link:"/agence-tech/marketing",icon:iconMarketing,},
   ]},
-  {id:2, name: "RÉALISATION", link: "/agence-tech/" },
+  {id:2, name: "RÉALISATION", link: "/agence-tech/realisation" },
   {id:3, name: "AGENCE", link: "/agence-tech/apropos" },
   {id:4, name: "CONTACTER", link: "/agence-tech/contact" },
 ];
@@ -423,7 +457,7 @@ export const DATAAPROPOS ={
       img:hero,
       Name:"ABRAHAM OUATTARA",
       Fonction:"PDG",
-      p1:"Abraham est le fondateur et PDG de Royal Cheese Digital.",
+      p1:"Abraham est le fondateur et PDG de AstraOne solution Digital.",
       p2:"Je voulais créer une marque mémorable, qui pique la curiosité et qui y ajoute implicitement une « touche française ». J’ai donc pris une tasse, j’y ai ajouté un peu de Pulp Fiction (vous vous souvenez de la fameuse discussion sur le Quarter Pounder with Cheese dans la voiture ?), j’ai mélangé le tout avec un jeu de mots intentionnel sur mon nom de famille, et voilà.",
     }
   }
@@ -545,7 +579,7 @@ export  const DATACONTACT = {
         telephone :{type:"tel",placeholder:"Telephone",name:"user_téléphone"},
         message :{type:"number",placeholder:"Message",rows:3,name:"user_message"},
         checkbox :{type:"Checkbox",placeholder:"Checkbox",name:"user_checkbox"},
-        label :{htmlFor:"Checkbox",text:"I accept to receive emails from Royal Cheese Digital"},
+        label :{htmlFor:"Checkbox",text:"J'accepte de recevoir des emails de astraOne Digital"},
         btn: {type:"submit",text:"Envoyé",}
       }
     }

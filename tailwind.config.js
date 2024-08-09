@@ -42,6 +42,10 @@ export default {
         quote632: 'url("../src/assets/icon/quote6-32.png")',
         quote664: 'url("../src/assets/icon/quote6-64.png")',
       },
+      fontFamily:{
+        'Poppins':["Poppins", "sans-serif"],
+        'Playwrite':["Playwrite BE VLG", "cursive"]
+      },
     },
 
   },

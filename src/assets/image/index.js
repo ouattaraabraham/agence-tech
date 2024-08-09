@@ -18,6 +18,11 @@ export {default as hero} from "./hero-4.png"
 export {default as ifone} from "./iphone.png"
 export {default as refonte} from "./refonte.png"
 export {default as eCommerce} from "./e-commerce.png"
+export {default as eveEvent} from "./eveEvent.png"
+export {default as hpPrestige} from "./hpPrestige.png"
+export {default as luxHotel} from "./luxHotel.png"
+export {default as eventFiesta} from "./eventFiesta.png"
+
 
 
 

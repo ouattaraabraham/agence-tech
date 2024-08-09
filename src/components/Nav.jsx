@@ -30,21 +30,21 @@ const Nav = () => {
           DATANAVLINK.map(item=>
             <ul key={item.id}>
                {item.id !==1?
-                <NavLink className="p-3 hover:text-[#F56F46] " to={item.link}>
-          {item.name}
-        </NavLink>:
+                <NavLink className=" transition delay-75 p-3 hover:text-[#F56F46] " to={item.link}>
+                  {item.name}
+                </NavLink>:
         <div className=" cursor-pointer">
           <div
             className="flex items-center gap-4 peer group hover:text-[#F56F46] ">
-            <p>{item.name}</p>
-            <span className="group-hover:hidden group-hover:invisible">
+            <p className=" transition delay-75">{item.name}</p>
+            <span className=" transition delay-75 group-hover:hidden group-hover:invisible">
              <AiFillCaretDown />
             </span>
-            <span className="hidden invisible group-hover:block group-hover:visible">
+            <span className=" transition delay-75 hidden invisible duration-700 group-hover:block group-hover:visible">
              <AiFillCaretRight/>
              </span>
           </div>
-          <div className="absolute left-[-60px]  invisible hidden  opacity-0 peer-hover:visible hover:visible peer-hover:block hover:block peer-hover:opacity-100 hover:opacity-100">
+          <div className="absolute transition delay-75 left-[-60px]  invisible hidden  opacity-0 peer-hover:visible hover:visible peer-hover:block hover:block peer-hover:opacity-100 hover:opacity-100">
             <div className=" shadow-navBar bg-[#002057] rounded-sm flex  gap-5 mt-6 py-4 px-5 text-white ">
               {item.sousLink.map(item=>
                 <NavLink
@@ -59,8 +59,7 @@ const Nav = () => {
                   whileTap={{ scale: 1.2 }}  
                     className="w-[35px]" src={item.icon} alt="icon" />
                     {/* <CiGlobe size={30} /> */}
-                    <p>
-                    {item.name}</p>
+                    <p className=" transition delay-75">{item.name}</p>
                   </div>
                 </NavLink>
               )}
