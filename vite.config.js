@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: './dist',
   },
-  base:'/agence-tech/',
+  base:'/astraone.tech',
 })
